@@ -1,15 +1,19 @@
-https://www.youtube.com/watch?v=PECZS26lgtM
+Listas videos:
+https://www.youtube.com/watch?v=5OkJ7Mb6QXo&list=PLWYGofN_jX5BupV2xLjU1HUvujl_yDIN6&index=27
+https://www.youtube.com/watch?v=amXOLa0ZXcg&list=PLgPc_vfSLFYVVKxqUn-HrkHAS-8P8S-Wk&index=21
+https://www.youtube.com/watch?v=4Blt4_U2rIU&list=PLYmJZ5mci7OT3wUwLuUzp5Cjq32tU8V4a
+https://www.youtube.com/watch?v=EF_MPhDTFcE&list=PL2cNFQAw_ndx1ID-DuvFoeGR_nE4jOFTq&index=2
+https://www.youtube.com/watch?v=PECZS26lgtM&list=PLTdG95U6i2G4Ls2kvl5ho0bUIN5zJeE1G&index=1
+https://www.youtube.com/watch?v=wUYkRs4U3qs&list=PL7IxPGHreINV0cG196jVCytHeio6WXWGD&index=233
+Canales:
+https://www.youtube.com/@unity/search
+https://www.youtube.com/@mixandjam
 
-https://sketchfab.com/DJ_Nugget/models
+Recursos:
+https://sketchfab.com/feed
+https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack
+https://assetstore.unity.com
 
-https://www.mixamo.com/#/?limit=96&page=1&query=&type=Motion%2CMotionPack
 
-https://giventofly.github.io/pixelit/#docs
-
-https://www.filehorse.com/es/descargar-aseprite/
-
-https://www.youtube.com/watch?v=g9eqGhus59Q&list=PLO93miOntN603vPv4kI7Cj_AUshj5-oEm
-
-https://www.youtube.com/watch?v=rLdA4Amea7Y
-
-https://www.youtube.com/watch?v=fO-8g75L4dA&list=PLPM-8mdv2ZtNVQu5m9my0fyi7S1dCPDz5
+Documentacion:
+https://docs.google.com/document/d/1-3zBuNAPYv_iz_DPE_iG6si0jbqiRaeEZYlr1i73DAk/edit
