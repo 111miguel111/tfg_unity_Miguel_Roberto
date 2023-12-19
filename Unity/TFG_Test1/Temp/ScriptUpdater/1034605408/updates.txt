@@ -1,0 +1,4 @@
+Temp/ScriptUpdater/1034605408\372472083_SunShafts.cs => Assets/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs
+Temp/ScriptUpdater/1034605408\2046732386_BloomAndFlares.cs => Assets/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs
+Temp/ScriptUpdater/1034605408\704346555_Bloom.cs => Assets/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
+Temp/ScriptUpdater/1034605408\1359871350_DepthOfField.cs => Assets/Free_Rocks/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs
