@@ -15,7 +15,7 @@ C:/Users/migue/Desktop/tfg_unity_Miguel_Roberto/Unity/TFG_Test1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53326
+52966
 Successfully changed project path to: C:/Users/migue/Desktop/tfg_unity_Miguel_Roberto/Unity/TFG_Test1
 C:/Users/migue/Desktop/tfg_unity_Miguel_Roberto/Unity/TFG_Test1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/migue/Desktop/tfg_unity_Miguel_Roberto/Unity/TFG_Test1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [312] Host "[IP] 192.168.159.1 [Port] 0 [Flags] 2 [Guid] 2222278422 [EditorId] 2222278422 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55H39CE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1208] Host "[IP] 192.168.159.1 [Port] 0 [Flags] 2 [Guid] 3381661841 [EditorId] 3381661841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55H39CE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [312] Host "[IP] 192.168.159.1 [Port] 0 [Flags] 2 [Guid] 2222278422 [EditorId] 2222278422 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55H39CE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1208] Host "[IP] 192.168.159.1 [Port] 0 [Flags] 2 [Guid] 3381661841 [EditorId] 3381661841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55H39CE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005073 seconds.
-- Loaded All Assemblies, in  0.302 seconds
+Registered in 0.010734 seconds.
+- Loaded All Assemblies, in  0.429 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.354 seconds
-Domain Reload Profiling: 655ms
-	BeginReloadAssembly (66ms)
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 767ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (64ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (157ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (143ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (145ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (354ms)
+	FinalizeReload (342ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (274ms)
+		SetupLoadedEditorAssemblies (267ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (184ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,85 +116,56 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\migue\Desktop\tfg_unity_Miguel_Roberto\Unity\TFG_Test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\migue\Desktop\tfg_unity_Miguel_Roberto\Unity\TFG_Test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.953 seconds
-Refreshing native plugins compatible for Editor in 5.19 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.187 seconds
+Refreshing native plugins compatible for Editor in 9.36 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.701 seconds
-Domain Reload Profiling: 1650ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  0.756 seconds
+Domain Reload Profiling: 1938ms
+	BeginReloadAssembly (253ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (678ms)
-		LoadAssemblies (368ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (784ms)
+		LoadAssemblies (477ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (376ms)
-			TypeCache.Refresh (351ms)
-				TypeCache.ScanAssembly (338ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
+		AnalyzeDomain (428ms)
+			TypeCache.Refresh (396ms)
+				TypeCache.ScanAssembly (380ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (701ms)
+	FinalizeReload (756ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (504ms)
+		SetupLoadedEditorAssemblies (551ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (380ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (398ms)
 			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.08 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.9 KB). Loaded Objects now: 3597.
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3597.
 Memory consumption went from 126.4 MB to 126.4 MB.
-Total: 4.278600 ms (FindLiveObjects: 0.454300 ms CreateObjectMapping: 0.118800 ms MarkObjects: 3.552300 ms  DeleteObjects: 0.151100 ms)
+Total: 3.791200 ms (FindLiveObjects: 0.424000 ms CreateObjectMapping: 0.119800 ms MarkObjects: 2.952900 ms  DeleteObjects: 0.292600 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 14411.414852 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling.fbx
-  artifactKey: Guid(9774b7618a23af14abfb02e0ac250ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling.fbx using Guid(9774b7618a23af14abfb02e0ac250ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b92fb3a11d214de3860dc9866d61ad') in 0.203797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (0 B). Loaded Objects now: 3611.
-Memory consumption went from 80.8 MB to 80.8 MB.
-Total: 4.246400 ms (FindLiveObjects: 0.431600 ms CreateObjectMapping: 0.124800 ms MarkObjects: 3.677600 ms  DeleteObjects: 0.010500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -207,811 +178,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 7.396008 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling Idle.fbx
-  artifactKey: Guid(7570058d7036f5f41bb60919d4125e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling Idle.fbx using Guid(7570058d7036f5f41bb60919d4125e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017a6813f577372952f32a5b0fb7def2') in 0.038447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 7.296857 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Forward Flip (1).fbx
-  artifactKey: Guid(b72e02c99edea4f4f838a35c2f70d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Forward Flip (1).fbx using Guid(b72e02c99edea4f4f838a35c2f70d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3525c7e42f4d34e3f8b82366355aca2f') in 0.099967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 19.777466 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Slide.fbx
-  artifactKey: Guid(e5dd814db63d7f44d9faaa4d17db0aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Slide.fbx using Guid(e5dd814db63d7f44d9faaa4d17db0aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125c62e31983b7b65c40678f73efd13b') in 0.041890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 6.878146 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Standing Sprint Forward (1).fbx
-  artifactKey: Guid(3d22cff1a5c2dc84d85a67e9de247e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Standing Sprint Forward (1).fbx using Guid(3d22cff1a5c2dc84d85a67e9de247e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7eaa98a5c0c0d4fd36dea559c52dc76') in 0.041810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 11.990922 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Hanging.fbx
-  artifactKey: Guid(6ae2ad02285e9cf488c86677f4e9bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Hanging.fbx using Guid(6ae2ad02285e9cf488c86677f4e9bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc3bf8eec6ce4d271ba843a22161c67') in 0.057755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 6.064336 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Hanging.fbx
-  artifactKey: Guid(6ae2ad02285e9cf488c86677f4e9bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Hanging.fbx using Guid(6ae2ad02285e9cf488c86677f4e9bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add978fecddd816f95480136dcf8ee72') in 0.054066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.973371 seconds.
-  path: Assets/Animations/Slayer/Rifle2
-  artifactKey: Guid(3f1cbca3ea25f134ba38837fd03d30f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2 using Guid(3f1cbca3ea25f134ba38837fd03d30f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc58f7ff87892654e45a93dcb7c670b5') in 0.001321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.117519 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death1.fbx
-  artifactKey: Guid(e59e262c759edec428d19e2b911fd1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death1.fbx using Guid(e59e262c759edec428d19e2b911fd1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5228c95c974c9505c5c1f70c45ed4691') in 0.057079 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.825727 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling.fbx
-  artifactKey: Guid(9774b7618a23af14abfb02e0ac250ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling.fbx using Guid(9774b7618a23af14abfb02e0ac250ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd694aedeea8454341d2ca4ee82f7b8ce') in 0.041746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 25.732291 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling.fbx
-  artifactKey: Guid(9774b7618a23af14abfb02e0ac250ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling.fbx using Guid(9774b7618a23af14abfb02e0ac250ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d881fee98f65fd62625cf2539cfa5c') in 0.055454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 7.356223 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling.fbx
-  artifactKey: Guid(9774b7618a23af14abfb02e0ac250ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling.fbx using Guid(9774b7618a23af14abfb02e0ac250ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c9e84c89d03e5b096dbedded34c44a') in 0.060466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 4.918452 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling Idle.fbx
-  artifactKey: Guid(7570058d7036f5f41bb60919d4125e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling Idle.fbx using Guid(7570058d7036f5f41bb60919d4125e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069f9bfdd6863ccbeeec65ae1e7c2f1c') in 0.042140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 18.562454 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling Idle.fbx
-  artifactKey: Guid(7570058d7036f5f41bb60919d4125e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling Idle.fbx using Guid(7570058d7036f5f41bb60919d4125e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ece486796f805a3c25b77521c163fa') in 0.039792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 9.592344 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling Idle.fbx
-  artifactKey: Guid(7570058d7036f5f41bb60919d4125e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Falling Idle.fbx using Guid(7570058d7036f5f41bb60919d4125e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f58555d876301a1c20307ac94626884') in 0.041703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 35.316127 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Forward Flip (1).fbx
-  artifactKey: Guid(b72e02c99edea4f4f838a35c2f70d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Forward Flip (1).fbx using Guid(b72e02c99edea4f4f838a35c2f70d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bff012f39836f3bc4c8916e34eacf8') in 0.093233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 13.864104 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Forward Flip (1).fbx
-  artifactKey: Guid(b72e02c99edea4f4f838a35c2f70d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Forward Flip (1).fbx using Guid(b72e02c99edea4f4f838a35c2f70d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cdc5d13b313dd65c8d30e4a26e9b6d') in 0.069340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 27.172020 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Slide.fbx
-  artifactKey: Guid(e5dd814db63d7f44d9faaa4d17db0aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Slide.fbx using Guid(e5dd814db63d7f44d9faaa4d17db0aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4d9d3aa8efbbba7455c70c1dd7f19e') in 0.058528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 20.142172 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Slide.fbx
-  artifactKey: Guid(e5dd814db63d7f44d9faaa4d17db0aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Running Slide.fbx using Guid(e5dd814db63d7f44d9faaa4d17db0aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25f217acd179a157669771bbcf00e83') in 0.038935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.198362 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Standing Sprint Forward (1).fbx
-  artifactKey: Guid(3d22cff1a5c2dc84d85a67e9de247e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Standing Sprint Forward (1).fbx using Guid(3d22cff1a5c2dc84d85a67e9de247e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a557a7ed2af77250da32b941db6e26a9') in 0.048135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 16.184135 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Standing Sprint Forward (1).fbx
-  artifactKey: Guid(3d22cff1a5c2dc84d85a67e9de247e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Standing Sprint Forward (1).fbx using Guid(3d22cff1a5c2dc84d85a67e9de247e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2e71268c23102b586391f3318e5fae') in 0.035210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.640737 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Standing Sprint Forward (1).fbx
-  artifactKey: Guid(3d22cff1a5c2dc84d85a67e9de247e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Standing Sprint Forward (1).fbx using Guid(3d22cff1a5c2dc84d85a67e9de247e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3de92d64916a0e038fd0e8718b7d3a') in 0.034741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 25.936572 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Hanging.fbx
-  artifactKey: Guid(6ae2ad02285e9cf488c86677f4e9bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Hanging.fbx using Guid(6ae2ad02285e9cf488c86677f4e9bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1f91e83659d4485e61570e2934d91f') in 0.033145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 7.046416 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Hanging.fbx
-  artifactKey: Guid(6ae2ad02285e9cf488c86677f4e9bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Hanging.fbx using Guid(6ae2ad02285e9cf488c86677f4e9bcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9c1aa8412d442a4afc4c1d5f501e7b') in 0.035654 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 6.570189 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Jump.fbx
-  artifactKey: Guid(292f24f792709cb4a892efad4fc7c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Jump.fbx using Guid(292f24f792709cb4a892efad4fc7c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f7a37d46ad348d0c80124138141638') in 0.038845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 10.749088 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Jump.fbx
-  artifactKey: Guid(292f24f792709cb4a892efad4fc7c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Jump.fbx using Guid(292f24f792709cb4a892efad4fc7c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b40b599a1358441b8ef2970cc7feaa4') in 0.037129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 25.331188 seconds.
-  path: Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Jump.fbx
-  artifactKey: Guid(292f24f792709cb4a892efad4fc7c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Others2/Slayer_Skelmesh@Wall_Jump.fbx using Guid(292f24f792709cb4a892efad4fc7c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9713a5dc504d699d6e886060ac0a24') in 0.081824 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 46.672832 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death1.fbx
-  artifactKey: Guid(e59e262c759edec428d19e2b911fd1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death1.fbx using Guid(e59e262c759edec428d19e2b911fd1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dc754ec258a9e10d16ae5615e16542') in 0.034664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.655707 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death2.fbx
-  artifactKey: Guid(110340e7a7b42ec42ac5ebbc4ada2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death2.fbx using Guid(110340e7a7b42ec42ac5ebbc4ada2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7a8f6aeedef6d1e1f5965fa82cdf78') in 0.056611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 4.347433 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death2.fbx
-  artifactKey: Guid(110340e7a7b42ec42ac5ebbc4ada2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death2.fbx using Guid(110340e7a7b42ec42ac5ebbc4ada2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab7865dab2c19ffe09ca053ee5aef7b') in 0.050402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.854523 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death3.fbx
-  artifactKey: Guid(a7a5430add71f4e429a4a623eea4309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death3.fbx using Guid(a7a5430add71f4e429a4a623eea4309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a6a2018065481f4374b99571cad671') in 0.055981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 3.431621 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death3.fbx
-  artifactKey: Guid(a7a5430add71f4e429a4a623eea4309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death3.fbx using Guid(a7a5430add71f4e429a4a623eea4309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9298310ca2247156b1ee6c07633c0c93') in 0.053696 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.770494 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death4.fbx
-  artifactKey: Guid(06e694d24ac3db642b6108272d758a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death4.fbx using Guid(06e694d24ac3db642b6108272d758a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad36d5d2fd527480911938a0241db8e') in 0.052503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 3.267618 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death4.fbx
-  artifactKey: Guid(06e694d24ac3db642b6108272d758a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death4.fbx using Guid(06e694d24ac3db642b6108272d758a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe750bfb5a8ae4a63f59976178e0673') in 0.050317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.993727 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death5.fbx
-  artifactKey: Guid(f2358aff7931fbf43ab5f7370a060481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death5.fbx using Guid(f2358aff7931fbf43ab5f7370a060481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdbe872345a39d2fe968accb35d4b90') in 0.037786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 4.676419 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death5.fbx
-  artifactKey: Guid(f2358aff7931fbf43ab5f7370a060481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Death5.fbx using Guid(f2358aff7931fbf43ab5f7370a060481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcba8179f570a1bf99ff5a7818a3872') in 0.044119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.112775 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit Reaction.fbx
-  artifactKey: Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit Reaction.fbx using Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe1d23ed3cfafc00110006d2a735cce') in 0.035032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 19.714867 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx
-  artifactKey: Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx using Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a379c0b75d1bd678afa512d6ca6e00f') in 0.085451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 15.151719 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx
-  artifactKey: Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx using Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2781c287b941bf0724275dcd814a75ef') in 0.047763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 6.890953 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx
-  artifactKey: Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx using Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1542917525bec61fc778b2860b8513c4') in 0.047799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.877303 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Walking Hit Reaction (1).fbx
-  artifactKey: Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Walking Hit Reaction (1).fbx using Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4057928ce76c58807fa8269439973a3') in 0.088050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.374168 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx
-  artifactKey: Guid(9db7f4d6bf4c7e24985ecec61444f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx using Guid(9db7f4d6bf4c7e24985ecec61444f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d89596cf716002aaed7917ef1d62a1') in 0.039634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 40.431050 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit3.fbx
-  artifactKey: Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit3.fbx using Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909933bfb883b7b7f8483fbac51e4563') in 0.035548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 9.319009 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit11.fbx
-  artifactKey: Guid(9db7f4d6bf4c7e24985ecec61444f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit11.fbx using Guid(9db7f4d6bf4c7e24985ecec61444f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdd0f808da2e03d400dcfa1eb432e5b') in 0.039370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.044645 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx
-  artifactKey: Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx using Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8efda75f1b939a3ac4b3e089689ad03') in 0.033633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.676504 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx
-  artifactKey: Guid(9db7f4d6bf4c7e24985ecec61444f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx using Guid(9db7f4d6bf4c7e24985ecec61444f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cea87983a3fecd2e4e23d10a89e125') in 0.052724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.034665 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit22.fbx
-  artifactKey: Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit22.fbx using Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e86358006a70ccd37bce7c68042e917') in 0.037651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 4.872472 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit3.fbx
-  artifactKey: Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit3.fbx using Guid(a1d2111a8c0cd96468b502ab209f8055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f8ffa21f228fea3ff6de89a7853525') in 0.035594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 4.413693 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx
-  artifactKey: Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx using Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847433fa7dc2d9da18a6ae630dab8ed1') in 0.035138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 23.477994 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx
-  artifactKey: Guid(9db7f4d6bf4c7e24985ecec61444f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit1.fbx using Guid(9db7f4d6bf4c7e24985ecec61444f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b55991345636b896dbf1a4fcfd95c27') in 0.035937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 12.210226 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx
-  artifactKey: Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx using Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9e919f627b2cb97dbcc1183940298c') in 0.036683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.254529 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx
-  artifactKey: Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Hit2.fbx using Guid(815126c92bf58ad499ea6d2c7d596dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3837d661d01cb33eca431085560755c') in 0.037895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 14.008018 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle Turn.fbx
-  artifactKey: Guid(c1955d1596ddeee4ebba21fdd82cdf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle Turn.fbx using Guid(c1955d1596ddeee4ebba21fdd82cdf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5042d6b0598e31828a84e74538b85d') in 0.061266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 14.830599 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Jumping.fbx
-  artifactKey: Guid(75e386ec0cd69064587373b1d7ca0677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Jumping.fbx using Guid(75e386ec0cd69064587373b1d7ca0677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d71b63520598ab69e0c2eefdb90325') in 0.107948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.272308 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle Turn.fbx
-  artifactKey: Guid(c1955d1596ddeee4ebba21fdd82cdf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle Turn.fbx using Guid(c1955d1596ddeee4ebba21fdd82cdf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223e557abcb005b7b816680f97976601') in 0.040221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.891222 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Jumping.fbx
-  artifactKey: Guid(75e386ec0cd69064587373b1d7ca0677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Jumping.fbx using Guid(75e386ec0cd69064587373b1d7ca0677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206748eedef883acbd4608180afac1fd') in 0.076837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.659392 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Landing.fbx
-  artifactKey: Guid(60f2dc7af9a22b54eb39db3bfd29f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Landing.fbx using Guid(60f2dc7af9a22b54eb39db3bfd29f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfefe9d189e76ec6a98b75fe252bb49a') in 0.077757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 3.614676 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Landing.fbx
-  artifactKey: Guid(60f2dc7af9a22b54eb39db3bfd29f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Landing.fbx using Guid(60f2dc7af9a22b54eb39db3bfd29f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89b43528a88602ed50eec3594f36f5b') in 0.046755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.785749 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Loop.fbx
-  artifactKey: Guid(6b9c1bf6f3d7001448faa0275f2d6b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Rifle_Jump_Loop.fbx using Guid(6b9c1bf6f3d7001448faa0275f2d6b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788edeea89e4b2787433fdb617205c9f') in 0.049792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.784479 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run And Throw Grenade (1).fbx
-  artifactKey: Guid(579af32cde88dc041bf82187c3d89269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run And Throw Grenade (1).fbx using Guid(579af32cde88dc041bf82187c3d89269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedbee82cf181ab23fb77f1ced9a10ba') in 0.052542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 10.175091 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run And Throw Grenade (1).fbx
-  artifactKey: Guid(579af32cde88dc041bf82187c3d89269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run And Throw Grenade (1).fbx using Guid(579af32cde88dc041bf82187c3d89269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a8ac2b24e8419c1f61085bef523ae5') in 0.046024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 32.215886 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run And Throw Grenade (1).fbx
-  artifactKey: Guid(579af32cde88dc041bf82187c3d89269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run And Throw Grenade (1).fbx using Guid(579af32cde88dc041bf82187c3d89269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709f6b0c12e3ab3cec06d1fdff5463f3') in 0.065718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 2.366436 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Backward.fbx
-  artifactKey: Guid(e2bf4d898a5878e47bdd27fac1318dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Backward.fbx using Guid(e2bf4d898a5878e47bdd27fac1318dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a61b1c0654e1d9d072a7c8da0c2a41f') in 0.090334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 9.566674 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Backward.fbx
-  artifactKey: Guid(e2bf4d898a5878e47bdd27fac1318dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Backward.fbx using Guid(e2bf4d898a5878e47bdd27fac1318dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e012edb399dd6c03ba85d30a89faf1') in 0.034501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 4.879372 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Backward.fbx
-  artifactKey: Guid(e2bf4d898a5878e47bdd27fac1318dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Backward.fbx using Guid(e2bf4d898a5878e47bdd27fac1318dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b57ce983fdd9eeb28cac86a5ac6759') in 0.052143 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.613779 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Forward.fbx
-  artifactKey: Guid(fad26ee983876db4b91f58dd71119782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Forward.fbx using Guid(fad26ee983876db4b91f58dd71119782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4c05a19c060f5c0b17f40c9298eee3') in 0.036054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 13.462174 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Forward.fbx
-  artifactKey: Guid(fad26ee983876db4b91f58dd71119782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Forward.fbx using Guid(fad26ee983876db4b91f58dd71119782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da150329ef82e254d19f1182c04e0ae') in 0.064507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 8.992788 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Forward.fbx
-  artifactKey: Guid(fad26ee983876db4b91f58dd71119782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Forward.fbx using Guid(fad26ee983876db4b91f58dd71119782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e528796ce24fdd3138ce6642406f8418') in 0.072224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 3.712729 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Backward.fbx
-  artifactKey: Guid(e2bf4d898a5878e47bdd27fac1318dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Run Backward.fbx using Guid(e2bf4d898a5878e47bdd27fac1318dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95440272c8c5a504bd3f28913185a40d') in 0.053490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 2.955706 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Running Dive Roll.fbx
-  artifactKey: Guid(c1fadb94187bec84bb389e9a0f007d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Running Dive Roll.fbx using Guid(c1fadb94187bec84bb389e9a0f007d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c441f5297c3c1a535c32328bcdb92472') in 0.081593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 7.008055 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Running Dive Roll.fbx
-  artifactKey: Guid(c1fadb94187bec84bb389e9a0f007d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Running Dive Roll.fbx using Guid(c1fadb94187bec84bb389e9a0f007d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cce23b8ec6cf7588c8cde959be040c9') in 0.076246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 10.365366 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Smash.fbx
-  artifactKey: Guid(4443393f4d44f1d4d8c4811cee2f0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Smash.fbx using Guid(4443393f4d44f1d4d8c4811cee2f0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ffeb6ae31940b11b505ccc5a6ba28b') in 0.050521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 10.719121 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Smash.fbx
-  artifactKey: Guid(4443393f4d44f1d4d8c4811cee2f0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Smash.fbx using Guid(4443393f4d44f1d4d8c4811cee2f0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aaee8db1660350ce670b5c29b25840') in 0.045805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.768125 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Smash.fbx
-  artifactKey: Guid(4443393f4d44f1d4d8c4811cee2f0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Smash.fbx using Guid(4443393f4d44f1d4d8c4811cee2f0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bd8742cf124a11a2062a753d54a706') in 0.044204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.100083 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Backward.fbx
-  artifactKey: Guid(97be8e9cf97e270499435c857674289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Backward.fbx using Guid(97be8e9cf97e270499435c857674289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28af81764e9b44fb68b9623a494ca786') in 0.039605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 12.176834 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Backward.fbx
-  artifactKey: Guid(97be8e9cf97e270499435c857674289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Backward.fbx using Guid(97be8e9cf97e270499435c857674289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19597df018a9f9fa8845275178b7840c') in 0.048231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 6.209357 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Backward.fbx
-  artifactKey: Guid(97be8e9cf97e270499435c857674289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Backward.fbx using Guid(97be8e9cf97e270499435c857674289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6129462765fc591eb6d9e8eed9508f9') in 0.046601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.965333 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Forward.fbx
-  artifactKey: Guid(f2d49090618f32e4ca039bb1d35eded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Forward.fbx using Guid(f2d49090618f32e4ca039bb1d35eded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e663d1eae979b87837b41d3d916fea0') in 0.050337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 9.543976 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Forward.fbx
-  artifactKey: Guid(f2d49090618f32e4ca039bb1d35eded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Forward.fbx using Guid(f2d49090618f32e4ca039bb1d35eded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd6d1475aa463d0e5850ccadab6adca') in 0.036270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 12.742367 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Forward.fbx
-  artifactKey: Guid(f2d49090618f32e4ca039bb1d35eded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Sprint Forward.fbx using Guid(f2d49090618f32e4ca039bb1d35eded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e80c3c3dfbc3682d3273bac0bd94ae3') in 0.034909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.859298 seconds.
-  path: Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Standing Sprint Forward (2).fbx
-  artifactKey: Guid(162c6bdab8bb492439e2b035a32fa878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Rifle2/Slayer_Skelmesh@Standing Sprint Forward (2).fbx using Guid(162c6bdab8bb492439e2b035a32fa878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2914b7d0b50938324755af7c1f416087') in 0.038688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 21.017800 seconds.
-  path: Assets/Animations/Slayer/Sword2
-  artifactKey: Guid(51a50b56130166347942e6ba9dccc7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2 using Guid(51a50b56130166347942e6ba9dccc7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfd62d87f90582b8e6472427ba080fa') in 0.001196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 24.990126 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Jumping.fbx
-  artifactKey: Guid(56e7cd12d4fd8544b8cd6f45f5972616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Jumping.fbx using Guid(56e7cd12d4fd8544b8cd6f45f5972616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6196b702aa503f58fa8fca8de36b2c2') in 0.151014 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 6.079354 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Jumping.fbx
-  artifactKey: Guid(56e7cd12d4fd8544b8cd6f45f5972616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Jumping.fbx using Guid(56e7cd12d4fd8544b8cd6f45f5972616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0c2a1c1a8c9d6669b5ee5589892bc4') in 0.037826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.857563 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Landing.fbx
-  artifactKey: Guid(c2cda6507f28b6741b227eb067044fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Landing.fbx using Guid(c2cda6507f28b6741b227eb067044fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5264a56ca41d2c146b7f6ced8f4d230b') in 0.053285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 2.903347 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Landing.fbx
-  artifactKey: Guid(c2cda6507f28b6741b227eb067044fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Landing.fbx using Guid(c2cda6507f28b6741b227eb067044fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c55ca5531174be01242272e36091677') in 0.073121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.807523 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Loop.fbx
-  artifactKey: Guid(6e706a6b7e26c2f4dbdcc5677ba75694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Loop.fbx using Guid(6e706a6b7e26c2f4dbdcc5677ba75694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1e78a6da91a73cc2038a5e1ae31640') in 0.055208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 3.841280 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Loop.fbx
-  artifactKey: Guid(6e706a6b7e26c2f4dbdcc5677ba75694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Melee Axe_Jump_Loop.fbx using Guid(6e706a6b7e26c2f4dbdcc5677ba75694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d247263c9a71623b33fc439816c024') in 0.036350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.690423 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack 360 High.fbx
-  artifactKey: Guid(bfbc9202ca13d7946beb54f0f612743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack 360 High.fbx using Guid(bfbc9202ca13d7946beb54f0f612743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e7126602209c866b0476981b076afe') in 0.037860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 3.650597 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack 360 High.fbx
-  artifactKey: Guid(bfbc9202ca13d7946beb54f0f612743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack 360 High.fbx using Guid(bfbc9202ca13d7946beb54f0f612743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc76441114fb7da465641f8cde00cb1e') in 0.050939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.784008 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Backhand.fbx
-  artifactKey: Guid(483503a64ead28548bd90c2a3cf26130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Backhand.fbx using Guid(483503a64ead28548bd90c2a3cf26130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef74b8eb524ff4bc7c27d1209ec90df') in 0.040305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 2.843381 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Backhand.fbx
-  artifactKey: Guid(483503a64ead28548bd90c2a3cf26130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Backhand.fbx using Guid(483503a64ead28548bd90c2a3cf26130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7edbb2f833020369b20619a09da719') in 0.045747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.637124 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Downward.fbx
-  artifactKey: Guid(681b0383585d2c64a9434e0446bfe75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Downward.fbx using Guid(681b0383585d2c64a9434e0446bfe75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a337728b8a9bbbd38b4b275a5a634530') in 0.046030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 2.936858 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Downward.fbx
-  artifactKey: Guid(681b0383585d2c64a9434e0446bfe75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Downward.fbx using Guid(681b0383585d2c64a9434e0446bfe75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bb6734069142713bdf066926297036') in 0.051380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.801264 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Horizontal.fbx
-  artifactKey: Guid(d3068b67086aa544295ce76ccca9ad39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Horizontal.fbx using Guid(d3068b67086aa544295ce76ccca9ad39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76bb5160ad6ed87320454838a660c03') in 0.040369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 4.889107 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Horizontal.fbx
-  artifactKey: Guid(d3068b67086aa544295ce76ccca9ad39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Attack Horizontal.fbx using Guid(d3068b67086aa544295ce76ccca9ad39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c85dcd4b6a77ee3705355fc3477414') in 0.066926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.032803 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Jumping.fbx
-  artifactKey: Guid(8dd8ba05508ed674698293f97d1b311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Jumping.fbx using Guid(8dd8ba05508ed674698293f97d1b311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353b5847b113323a59956d8eca17928e') in 0.036299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.714067 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Jumping.fbx
-  artifactKey: Guid(8dd8ba05508ed674698293f97d1b311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Jumping.fbx using Guid(8dd8ba05508ed674698293f97d1b311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f6e984db7135475e5f7b3a77f46482') in 0.054151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 1.007451 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Landing.fbx
-  artifactKey: Guid(b0c188bda5517ec4c90b4fa1abbe96fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Landing.fbx using Guid(b0c188bda5517ec4c90b4fa1abbe96fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45eb3dee9a3593c4865abd3a7d5b2c6') in 0.032438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 3.177211 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Landing.fbx
-  artifactKey: Guid(b0c188bda5517ec4c90b4fa1abbe96fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Landing.fbx using Guid(b0c188bda5517ec4c90b4fa1abbe96fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6a3b5f38d10fc1ce72043c904c23f4') in 0.045270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 0.904831 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Loop.fbx
-  artifactKey: Guid(917fe8aa9596cd94d8883f94865fb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Loop.fbx using Guid(917fe8aa9596cd94d8883f94865fb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7e597722b715ddc2dbdc4c5fef2b74') in 0.051904 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 5.235709 seconds.
-  path: Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Loop.fbx
-  artifactKey: Guid(917fe8aa9596cd94d8883f94865fb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Slayer/Sword2/Slayer_Skelmesh@Standing Melee Run Jump Attack_Loop.fbx using Guid(917fe8aa9596cd94d8883f94865fb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdcddea65776b1206323fddb5606356') in 0.057958 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
