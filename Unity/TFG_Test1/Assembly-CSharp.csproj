@@ -65,6 +65,7 @@
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
     <Compile Include="Assets\Piloto Studio\Readme\Scripts\ReadmeBehaviour.cs" />
+    <Compile Include="Assets\Scripts\tutorial\cameraFollow.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\Piloto Studio\Readme\Scripts\Readme.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
