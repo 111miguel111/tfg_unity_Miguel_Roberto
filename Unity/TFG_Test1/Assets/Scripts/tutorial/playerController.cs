@@ -19,6 +19,7 @@ public class playerController : MonoBehaviour
     float groundCheckRadius = 0.2f;//La pelota que detecta el suelo
     public LayerMask groundLayer;//Lo que vamos a entender como suelo
     public Transform groundCheck;//Lo que unity leera para detectar el suelo
+
     public float jumpHeight;//La altura del salto
 
     // Start is called before the first frame update
@@ -64,7 +65,8 @@ public class playerController : MonoBehaviour
         //Para moverse disparando
         float shooting = Input.GetAxisRaw("Fire1");
         myAnim.SetFloat("shooting", shooting);
-        //Para mover al personaje con las siguientes cndiciones
+
+        //Para mover al personaje con las siguientes condiciones
         if(shooting > 0 && grounded)//Si esta disparando y esta en el suelo se mueve a la velocidad de disparo
         {
             myRB.velocity = new Vector3(move * shootSpeed, myRB.velocity.y, 0);
