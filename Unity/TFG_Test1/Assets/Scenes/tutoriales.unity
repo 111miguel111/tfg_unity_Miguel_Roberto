@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PTK_Cube_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1410880384113558, guid: b471d26a5eac87b4086c90c7c0b76f4e, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4009654013808098, guid: b471d26a5eac87b4086c90c7c0b76f4e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -440,6 +444,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 2
   shootSpeed: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  groundCheck: {fileID: 1792050006}
+  jumpHeight: 100
+--- !u!4 &1403950283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0025ec597151f143b402a92ba672194, type: 3}
+  m_PrefabInstance: {fileID: 1505730517}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1505730517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -507,6 +521,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0025ec597151f143b402a92ba672194, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1792050006}
     - targetCorrespondingSourceObject: {fileID: -1812909498023395591, guid: e0025ec597151f143b402a92ba672194, type: 3}
       insertIndex: -1
       addedObject: {fileID: 288121116}
@@ -615,3 +632,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1792050005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1792050006}
+  m_Layer: 0
+  m_Name: checkGroundLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1792050006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792050005}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1403950283}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
