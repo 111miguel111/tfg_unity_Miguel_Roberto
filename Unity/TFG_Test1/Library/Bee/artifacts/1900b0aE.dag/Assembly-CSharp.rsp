@@ -369,6 +369,7 @@
 "Assets/Recursos Visuales/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoRotate.cs"
 "Assets/Recursos Visuales/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightFlicker.cs"
 "Assets/Recursos Visuales/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightIntensityFade.cs"
+"Assets/Scripts/tutorial/playerController.cs"
 -langversion:9.0
 
 /deterministic
