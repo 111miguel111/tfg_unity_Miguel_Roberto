@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7C5E10D3-AF6A-245F-EAB5-40F1EC3EFF61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{5374B2FE-E0C5-0DCD-478D-0037C1E90279}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToonyColorsPro.Demo.Editor", "ToonyColorsPro.Demo.Editor.csproj", "{4909A2C1-A724-B526-1034-9EB598D84334}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXREditor", "CFXREditor.csproj", "{6521639D-4DF5-4FA1-9C21-68519A72C1F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{5374B2FE-E0C5-0DCD-478D-0037C1E90279}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRDemo", "CFXRDemo.csproj", "{590D14AE-A26B-4056-2167-AA2F304EEEE9}"
 EndProject
@@ -25,10 +25,6 @@ Global
 		{7C5E10D3-AF6A-245F-EAB5-40F1EC3EFF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C5E10D3-AF6A-245F-EAB5-40F1EC3EFF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C5E10D3-AF6A-245F-EAB5-40F1EC3EFF61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5374B2FE-E0C5-0DCD-478D-0037C1E90279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5374B2FE-E0C5-0DCD-478D-0037C1E90279}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5374B2FE-E0C5-0DCD-478D-0037C1E90279}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5374B2FE-E0C5-0DCD-478D-0037C1E90279}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4909A2C1-A724-B526-1034-9EB598D84334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4909A2C1-A724-B526-1034-9EB598D84334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4909A2C1-A724-B526-1034-9EB598D84334}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +33,10 @@ Global
 		{6521639D-4DF5-4FA1-9C21-68519A72C1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6521639D-4DF5-4FA1-9C21-68519A72C1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6521639D-4DF5-4FA1-9C21-68519A72C1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5374B2FE-E0C5-0DCD-478D-0037C1E90279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5374B2FE-E0C5-0DCD-478D-0037C1E90279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5374B2FE-E0C5-0DCD-478D-0037C1E90279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5374B2FE-E0C5-0DCD-478D-0037C1E90279}.Release|Any CPU.Build.0 = Release|Any CPU
 		{590D14AE-A26B-4056-2167-AA2F304EEEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{590D14AE-A26B-4056-2167-AA2F304EEEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{590D14AE-A26B-4056-2167-AA2F304EEEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
