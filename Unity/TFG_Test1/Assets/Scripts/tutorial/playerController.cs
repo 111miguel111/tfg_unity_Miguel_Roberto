@@ -10,6 +10,8 @@ public class playerController : MonoBehaviour
     Rigidbody myRB;//El muñeco
     Animator myAnim;//La informacion del muñeco
 
+    bool runningBool;
+    bool shootingBool;
     bool facingRight;//Para saber si esta mirando a la derecha
 
     //for jumping
@@ -36,6 +38,8 @@ public class playerController : MonoBehaviour
     }
     void FixedUpdate()
     {
+        runningBool = false;
+        shootingBool = false;
         //jumping code
         if(grounded && Input.GetAxis("Jump") > 0)
         {
@@ -69,10 +73,16 @@ public class playerController : MonoBehaviour
         if(shooting > 0 && grounded)//Si esta disparando y esta en el suelo se mueve a la velocidad de disparo
         {
             myRB.velocity = new Vector3(move * shootSpeed, myRB.velocity.y, 0);
+            shootingBool = true;
         }
         else//Si no esta disparando se movera a la velocidad de correr independientemente de si esta en el suelo o en el aire
         {
             myRB.velocity = new Vector3(move * runSpeed, myRB.velocity.y, 0);
+            if (Mathf.Abs(move) > 0)
+            {
+                runningBool = true;
+            }
+            
         }
         
         //Para girar el personaje
@@ -102,5 +112,14 @@ public class playerController : MonoBehaviour
         {
             return -1;
         }
+    }
+
+    public bool getRunning()
+    {
+        return (runningBool);
+    }
+    public bool getShooting()
+    {
+        return (shootingBool);
     }
 }

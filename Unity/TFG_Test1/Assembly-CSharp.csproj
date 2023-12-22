@@ -59,7 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
-    <Compile Include="Assets\enemyDamage.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
@@ -73,13 +72,16 @@
     <Compile Include="Assets\Scripts\tutorial\cameraFollow.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\Scripts\tutorial\destroyMe.cs" />
+    <Compile Include="Assets\meleeScript.cs" />
     <Compile Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Scripts\U10PS_DissolveOverTime.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\Scripts\tutorial\cleaner.cs" />
     <Compile Include="Assets\Scripts\tutorial\shootBullet.cs" />
     <Compile Include="Assets\Scripts\tutorial\playerController.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\Scripts\tutorial\fireBullet.cs" />
+    <Compile Include="Assets\Scripts\tutorial\enemyDamage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Shaders\CFX3 Multiply Color.shader" />
