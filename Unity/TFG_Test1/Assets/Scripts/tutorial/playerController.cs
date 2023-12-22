@@ -7,7 +7,6 @@ public class playerController : MonoBehaviour
     //Importante las variables de unity empiezan con mayuscula las que creamos nosotros en miniscula
     public float runSpeed;//Velocidad de correr
     public float shootSpeed;//Velocidad al disparar
-
     Rigidbody myRB;//El muñeco
     Animator myAnim;//La informacion del muñeco
 
@@ -92,5 +91,16 @@ public class playerController : MonoBehaviour
         Vector3 theScale=transform.localScale;
         theScale.z *= -1;
         transform.localScale = theScale;
+    }
+    public float getFacing()
+    {
+        if (facingRight)
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
     }
 }

@@ -1,0 +1,20 @@
+Escenario:
+-Crear Nivel
+-Efectos visuales de escenario
+-Triggers
+
+Jugador:
+-Movimiento
+-Animar
+-Disparar
+-Armas
+
+Enemigos:
+-Movimiento
+-Animar
+-Disparar
+-IA
+
+Otros:
+-Audio
+-FX
