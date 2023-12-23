@@ -1,0 +1,384 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16197 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/migue/Desktop/tfg_unity_Miguel_Roberto/Unity/TFG_Test1
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49938
+Successfully changed project path to: C:/Users/migue/Desktop/tfg_unity_Miguel_Roberto/Unity/TFG_Test1
+C:/Users/migue/Desktop/tfg_unity_Miguel_Roberto/Unity/TFG_Test1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13416] Host "[IP] 192.168.159.1 [Port] 0 [Flags] 2 [Guid] 16151382 [EditorId] 16151382 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55H39CE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13416] Host "[IP] 192.168.159.1 [Port] 0 [Flags] 2 [Guid] 16151382 [EditorId] 16151382 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-55H39CE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 10.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/migue/Desktop/tfg_unity_Miguel_Roberto/Unity/TFG_Test1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009479 seconds.
+- Loaded All Assemblies, in  0.412 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.331 seconds
+Domain Reload Profiling: 741ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\migue\Desktop\tfg_unity_Miguel_Roberto\Unity\TFG_Test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\migue\Desktop\tfg_unity_Miguel_Roberto\Unity\TFG_Test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.946 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.713 seconds
+Domain Reload Profiling: 1655ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (636ms)
+		LoadAssemblies (387ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (342ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (305ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3141 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (207.7 KB). Loaded Objects now: 3622.
+Memory consumption went from 134.9 MB to 134.6 MB.
+Total: 3.510000 ms (FindLiveObjects: 0.441600 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.739900 ms  DeleteObjects: 0.206400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/shootFireball.cs: 7ac4ab0dd200b5dad66f9fdff9d3c549 -> 5ea1e715e9279792eaf5ddab01291898
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/meleeScript.cs: 8e79e3a3be9e445e82381e063e80b275 -> 2a7697ab8c3ab5f4575e39321d05efb5
+  custom:scripting/monoscript/fileName/fireBullet.cs: 93eec5b8ab9b2b822787d3f0fd0b76a3 -> 8f07ea0b0b8dd4a0ef8f58ddbec89561
+  custom:scripting/monoscript/fileName/shootBullet.cs: feca797ab2eaca5dc208c83379350df3 -> e3e4031b2087b061b0bd25b9334a5869
+  custom:scripting/monoscript/fileName/cleaner.cs: ead49a57ffba158083845a8fdd3da111 -> 632950bd5b854986620b26856019ea6e
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/playerController.cs: 85679615d9cda66a65f09b4a6964f410 -> 8a36541facae464d3638fd14fa5b7208
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/cameraFollow.cs: a4ff3d5bbc852efba3c1e3d2bc20c11c -> d894ceed6075e22d3236a105a1c23932
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/enemyDamage.cs: 9303bcea5351eb3e53ceb638f616620e -> 627570726601156d7f0675fa1c1aef9b
+  custom:scripting/monoscript/fileName/playerHealth.cs: e0bc314052c664d6bc02808d49d26918 -> 50efc4bce99caca2084194ee66bf8b2c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/destroyMe.cs: 4f093e79049768e2c274ef483f53b037 -> cd66e0c411efb8c51156c11cdc250a5a
+========================================================================
+Received Import Request.
+  Time since last request: 274923.109657 seconds.
+  path: Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Revenant Reticle/demon_reticle_revenant_heatgauge_glow.png
+  artifactKey: Guid(3d780b2381d9cd541873b676d37f45e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Revenant Reticle/demon_reticle_revenant_heatgauge_glow.png using Guid(3d780b2381d9cd541873b676d37f45e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f4dd2209d161ef118e3f6d39d2429b') in 0.106793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.289575 seconds.
+  path: Assets/Recursos Visuales/Ultimate 10 Plus Shaders/Materials/Textures/hexagon_grid.png
+  artifactKey: Guid(e61a550a7ddc3304fbfe0a01919efe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Recursos Visuales/Ultimate 10 Plus Shaders/Materials/Textures/hexagon_grid.png using Guid(e61a550a7ddc3304fbfe0a01919efe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226db2919f8bb1887bc2ca67dcba3d08') in 0.021751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041185 seconds.
+  path: Assets/hud/hud3.png
+  artifactKey: Guid(a3dfcdf94ff533547a35a17204693b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/hud3.png using Guid(a3dfcdf94ff533547a35a17204693b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e769ab187830cddc2308eaab8411256') in 0.019469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.153694 seconds.
+  path: Assets/hud/Weapons/icon_weapons_02.png
+  artifactKey: Guid(8b5a839e47388ac49969fae85fcd2898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/Weapons/icon_weapons_02.png using Guid(8b5a839e47388ac49969fae85fcd2898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e27b932ec033d3f6cc98b439db661b0') in 0.031713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.616357 seconds.
+  path: Assets/hud/Weapons/icon_weapons_09.png
+  artifactKey: Guid(6f3288aa2a75e524e8f3b98678e5ba20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/Weapons/icon_weapons_09.png using Guid(6f3288aa2a75e524e8f3b98678e5ba20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64504f5167145c84a84b99498fd94db') in 0.026198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.549705 seconds.
+  path: Assets/Recursos Visuales/FREE 2D Hand Painted- Background/FREE 2D Hand Painted- Background/Day/Mountain01.png
+  artifactKey: Guid(8aeef97d3204a28479822e157f1e9a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Recursos Visuales/FREE 2D Hand Painted- Background/FREE 2D Hand Painted- Background/Day/Mountain01.png using Guid(8aeef97d3204a28479822e157f1e9a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c290840e46bff97d814221202ecc1951') in 0.040988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021875 seconds.
+  path: Assets/Recursos Visuales/FREE 2D Hand Painted- Background/FREE 2D Hand Painted- Background/Night/Mountain03.png
+  artifactKey: Guid(3ecb5a58a069a8a42b0d0dad4d45eb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Recursos Visuales/FREE 2D Hand Painted- Background/FREE 2D Hand Painted- Background/Night/Mountain03.png using Guid(3ecb5a58a069a8a42b0d0dad4d45eb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b6b30bdbfb1d7fbaca358ee60c36a1') in 0.022911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.319123 seconds.
+  path: Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_heavycannon_base_top.png
+  artifactKey: Guid(56b145bd821d3c640ad09b165cd6234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_heavycannon_base_top.png using Guid(56b145bd821d3c640ad09b165cd6234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f3d597d6ad6888b6933b570409d507') in 0.020753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.465071 seconds.
+  path: Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_heavycannon_scope_pip_glow.png
+  artifactKey: Guid(96f4a950c215efd45b6792f0dbfe1f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_heavycannon_scope_pip_glow.png using Guid(96f4a950c215efd45b6792f0dbfe1f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c6af10f3255e530620776bdaf454ae') in 0.022387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.040975 seconds.
+  path: Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_heavycannon_scope_smaller_ring_reload_track.png
+  artifactKey: Guid(98101aad065f8e147b8b9e8f31c9b8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_heavycannon_scope_smaller_ring_reload_track.png using Guid(98101aad065f8e147b8b9e8f31c9b8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfcd79230e09069d667ddcf0ef708a4') in 0.020034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.399270 seconds.
+  path: Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_plasma__corner_base_top.png
+  artifactKey: Guid(10930786cb7906748b0509225cb4c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_plasma__corner_base_top.png using Guid(10930786cb7906748b0509225cb4c7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89476130da657fbd474336dbda294889') in 0.020288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.081776 seconds.
+  path: Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_plasma_microwave_pip_top.png
+  artifactKey: Guid(6d4294e6b6e8fec45b2639a1c1dbb85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_plasma_microwave_pip_top.png using Guid(6d4294e6b6e8fec45b2639a1c1dbb85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d15b3f070219662ed16160aa8e53048') in 0.019042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.338071 seconds.
+  path: Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_rocket_base_glow.png
+  artifactKey: Guid(1c2ed77da9716a74fb8b01d92cce021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hud/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/ret_rocket_base_glow.png using Guid(1c2ed77da9716a74fb8b01d92cce021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8932af5b865336776c7ad34c85374c8c') in 0.025153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.419599 seconds.
+  path: Assets/Recursos Visuales/FREE 2D Hand Painted- Background/FREE 2D Hand Painted- Background/Day/Sky.png
+  artifactKey: Guid(b87b398832e236d4296ab6eac03d8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Recursos Visuales/FREE 2D Hand Painted- Background/FREE 2D Hand Painted- Background/Day/Sky.png using Guid(b87b398832e236d4296ab6eac03d8f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8bcb662a1eee3f03b9ab44791eaf5b') in 0.027404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\migue\Desktop\tfg_unity_Miguel_Roberto\Unity\TFG_Test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\migue\Desktop\tfg_unity_Miguel_Roberto\Unity\TFG_Test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.965 seconds
+Refreshing native plugins compatible for Editor in 6.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.213 seconds
+Domain Reload Profiling: 2173ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (680ms)
+		LoadAssemblies (394ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (358ms)
+				TypeCache.ScanAssembly (344ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1214ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (180.3 KB). Loaded Objects now: 3652.
+Memory consumption went from 132.3 MB to 132.1 MB.
+Total: 3.961500 ms (FindLiveObjects: 0.476000 ms CreateObjectMapping: 0.176200 ms MarkObjects: 3.085500 ms  DeleteObjects: 0.221800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/shootFireball.cs: 7ac4ab0dd200b5dad66f9fdff9d3c549 -> 5ea1e715e9279792eaf5ddab01291898
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/meleeScript.cs: 8e79e3a3be9e445e82381e063e80b275 -> 2a7697ab8c3ab5f4575e39321d05efb5
+  custom:scripting/monoscript/fileName/fireBullet.cs: 93eec5b8ab9b2b822787d3f0fd0b76a3 -> 8f07ea0b0b8dd4a0ef8f58ddbec89561
+  custom:scripting/monoscript/fileName/shootBullet.cs: feca797ab2eaca5dc208c83379350df3 -> e3e4031b2087b061b0bd25b9334a5869
+  custom:scripting/monoscript/fileName/cleaner.cs: ead49a57ffba158083845a8fdd3da111 -> 632950bd5b854986620b26856019ea6e
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/playerController.cs: 85679615d9cda66a65f09b4a6964f410 -> 8a36541facae464d3638fd14fa5b7208
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/cameraFollow.cs: a4ff3d5bbc852efba3c1e3d2bc20c11c -> d894ceed6075e22d3236a105a1c23932
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/enemyDamage.cs: 9303bcea5351eb3e53ceb638f616620e -> 627570726601156d7f0675fa1c1aef9b
+  custom:scripting/monoscript/fileName/playerHealth.cs: e0bc314052c664d6bc02808d49d26918 -> 50efc4bce99caca2084194ee66bf8b2c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/destroyMe.cs: 4f093e79049768e2c274ef483f53b037 -> cd66e0c411efb8c51156c11cdc250a5a
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
