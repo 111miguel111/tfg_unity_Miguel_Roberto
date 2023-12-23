@@ -682,9 +682,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -905,6 +905,10 @@ PrefabInstance:
     - target: {fileID: 1292903948967940732, guid: 4452321319280b74883beff67286d40c, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752388501594681426, guid: 4452321319280b74883beff67286d40c, type: 3}
+      propertyPath: m_Value
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4835422208575660055, guid: 4452321319280b74883beff67286d40c, type: 3}
       propertyPath: m_Pivot.x
