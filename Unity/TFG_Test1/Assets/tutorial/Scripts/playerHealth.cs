@@ -18,12 +18,16 @@ public class playerHealth : MonoBehaviour
     float flashSpeed = 5f;
     bool damaged = false;
 
+    //AudioSource
+    AudioSource playerAS;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = fullHealth;
         playerHealthSlider.maxValue = fullHealth;
         playerHealthSlider.value = fullHealth;
+        playerAS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -36,7 +40,7 @@ public class playerHealth : MonoBehaviour
         }
         else
         {
-            damageScreen.color = Color.Lerp(damageScreen.color,Color.clear, flashSpeed * Time.time);
+            damageScreen.color = Color.Lerp(damageScreen.color,Color.clear, flashSpeed * Time.deltaTime);
         }
         damaged = false;
     }
@@ -46,6 +50,7 @@ public class playerHealth : MonoBehaviour
         currentHealth -= damage;
         playerHealthSlider.value = currentHealth;
         damaged = true;
+        playerAS.Play();
         if(currentHealth <= 0) {
             makeDead();
         }

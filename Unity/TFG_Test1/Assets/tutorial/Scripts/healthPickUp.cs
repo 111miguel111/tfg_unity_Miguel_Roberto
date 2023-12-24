@@ -5,6 +5,7 @@ using UnityEngine;
 public class rocketLauncherPickUp : MonoBehaviour
 {
     public float healthAmount;
+    public AudioClip healthPickUpSound;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class rocketLauncherPickUp : MonoBehaviour
         {
             other.GetComponent<playerHealth>().addHealth(healthAmount);
             Destroy(transform.root.gameObject);
+            AudioSource.PlayClipAtPoint(healthPickUpSound, transform.position, 1f);
         }
     }
 }

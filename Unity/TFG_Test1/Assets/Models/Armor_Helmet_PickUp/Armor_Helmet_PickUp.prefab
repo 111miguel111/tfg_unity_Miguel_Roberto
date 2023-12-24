@@ -30,7 +30,7 @@ Transform:
   m_Children:
   - {fileID: 2604362315471012687}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: -90}
 --- !u!1 &8803208062721865160
 GameObject:
@@ -173,3 +173,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthAmount: 10
+  healthPickUpSound: {fileID: 8300000, guid: a161527766be241efad062d931d302c5, type: 3}
