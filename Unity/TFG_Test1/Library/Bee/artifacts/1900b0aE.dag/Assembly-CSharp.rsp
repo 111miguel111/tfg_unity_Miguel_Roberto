@@ -377,6 +377,7 @@
 "Assets/tutorial/Scripts/destroyMe.cs"
 "Assets/tutorial/Scripts/enemyDamage.cs"
 "Assets/tutorial/Scripts/fireBullet.cs"
+"Assets/tutorial/Scripts/healthPickUp.cs"
 "Assets/tutorial/Scripts/meleeScript.cs"
 "Assets/tutorial/Scripts/playerController.cs"
 "Assets/tutorial/Scripts/playerHealth.cs"

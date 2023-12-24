@@ -43,14 +43,20 @@ public class playerHealth : MonoBehaviour
 
     public void addDamage(float damage)
     {
-        damageScreen.color = flashColor;
-        damageScreen.color = Color.Lerp(damageScreen.color, Color.clear, flashSpeed * Time.time);
         currentHealth -= damage;
         playerHealthSlider.value = currentHealth;
         damaged = true;
         if(currentHealth <= 0) {
             makeDead();
         }
+    }
+    public void addHealth(float health)
+    {
+        currentHealth += health;
+        if(currentHealth > fullHealth) {
+            currentHealth=fullHealth;
+        }
+        playerHealthSlider.value = currentHealth;
     }
     public void makeDead()
     {
