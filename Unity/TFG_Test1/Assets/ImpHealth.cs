@@ -50,7 +50,7 @@ public class ImpHealth : MonoBehaviour{
         AudioSource.PlayClipAtPoint(deathSound,transform.position, 1f);
         damageFX(deathParticles, transform.position, new Vector3(0, 0, 0));
         if (drops){
-            Instantiate(drop, transform.position, transform.rotation);
+            Instantiate(drop, transform.position, drop.transform.rotation);
         }
         Destroy(gameObject.transform.root.gameObject);
     }

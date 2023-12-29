@@ -357,6 +357,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity 2022.3.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity 2022.3.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/EnemyHealth.cs"
+"Assets/ImpController.cs"
 "Assets/ImpHealth.cs"
 "Assets/Models/Escenario/flipNormals.cs"
 "Assets/Recursos Visuales/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_AutoStopLoopedEffect.cs"
@@ -386,6 +388,8 @@
 "Assets/tutorial/Scripts/playerHealth.cs"
 "Assets/tutorial/Scripts/shootBullet.cs"
 "Assets/tutorial/Scripts/shootFireball.cs"
+"Assets/ZombieController.cs"
+"Assets/ZombieHealth.cs"
 -langversion:9.0
 
 /deterministic

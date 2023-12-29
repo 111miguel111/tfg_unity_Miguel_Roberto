@@ -28,7 +28,7 @@ public class shootFireball : MonoBehaviour{
     {
         if(other.tag == "Enemy" || other.gameObject.layer == LayerMask.NameToLayer("Shootable")){
             myRB.velocity = Vector3.zero;
-            ImpHealth enemyHealth = other.GetComponent<ImpHealth>();
+            EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
             if(enemyHealth != null)
             {
                 enemyHealth.addDamage(damage);
