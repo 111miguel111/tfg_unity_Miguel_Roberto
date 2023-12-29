@@ -59,21 +59,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
-    <Compile Include="Assets\ImpController.cs" />
-    <Compile Include="Assets\ZombieController.cs" />
+    <Compile Include="Assets\tutorial\Scripts\slayerAppareance.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
     <Compile Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Scripts\U10PS_MouseRotation.cs" />
+    <Compile Include="Assets\tutorial\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\tutorial\Scripts\fireBullet.cs" />
-    <Compile Include="Assets\ZombieHealth.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\tutorial\Scripts\shootFireball.cs" />
     <Compile Include="Assets\tutorial\Scripts\enemyDamage.cs" />
     <Compile Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_Translate.cs" />
-    <Compile Include="Assets\ImpHealth.cs" />
-    <Compile Include="Assets\EnemyHealth.cs" />
+    <Compile Include="Assets\tutorial\Scripts\ZombieController.cs" />
     <Compile Include="Assets\tutorial\Scripts\destroyMe.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
     <Compile Include="Assets\tutorial\Scripts\cleaner.cs" />
@@ -82,6 +80,7 @@
     <Compile Include="Assets\tutorial\Scripts\playerHealth.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\tutorial\Scripts\playerController.cs" />
+    <Compile Include="Assets\tutorial\Scripts\ImpController.cs" />
     <Compile Include="Assets\tutorial\Scripts\cameraFollow.cs" />
     <Compile Include="Assets\tutorial\Scripts\meleeScript.cs" />
     <Compile Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Scripts\U10PS_DissolveOverTime.cs" />
@@ -89,7 +88,6 @@
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
     <Compile Include="Assets\tutorial\Scripts\shootBullet.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
-    <Compile Include="Assets\slayerAppareance.cs" />
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
   </ItemGroup>
   <ItemGroup>
