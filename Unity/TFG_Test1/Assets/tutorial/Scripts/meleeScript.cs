@@ -20,7 +20,7 @@ public class meleeScript : MonoBehaviour
         shootableMask = LayerMask.GetMask("Shootable");
         myAnim =transform.root.GetComponent<Animator>();
         myPC = transform.root.GetComponent<playerController>();
-        nextMelee = 0f;
+        nextMelee = 3f;
 
 
     }
