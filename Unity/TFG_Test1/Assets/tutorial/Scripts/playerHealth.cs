@@ -50,6 +50,7 @@ public class playerHealth : MonoBehaviour
         currentHealth -= damage;
         playerHealthSlider.value = currentHealth;
         damaged = true;
+        Instantiate(playerDeathFX, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
         playerAS.Play();
         if(currentHealth <= 0) {
             makeDead();
@@ -65,8 +66,8 @@ public class playerHealth : MonoBehaviour
     }
     public void makeDead()
     {
-        Instantiate(playerDeathFX2, transform.position, Quaternion.Euler(new Vector3(-90, 0, 0)));
-        Instantiate(playerDeathFX,transform.position, Quaternion.Euler(new Vector3(-90,0,0)));
+        Instantiate(playerDeathFX2, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+        Instantiate(playerDeathFX,transform.position, Quaternion.Euler(new Vector3(0,0,0)));
         damageScreen.color = flashColor;
         Destroy (gameObject);
     }

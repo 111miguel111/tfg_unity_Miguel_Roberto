@@ -30,7 +30,7 @@ public class ImpHealth : MonoBehaviour{
         damage = damage * damageModifier;
         if(damage > 0f){
             currentHealth -= damage;
-            damageFX(damageParticles, transform.position, new Vector3(-90, 0, 0));
+            damageFX(damageParticles, transform.position, new Vector3(0, 0, 0));
             enemyAS.Play();
             if (currentHealth <= 0){
                 makeDead();
@@ -48,7 +48,7 @@ public class ImpHealth : MonoBehaviour{
         //create ragdoll
         
         AudioSource.PlayClipAtPoint(deathSound,transform.position, 1f);
-        damageFX(deathParticles, transform.position, new Vector3(-90, 0, 0));
+        damageFX(deathParticles, transform.position, new Vector3(0, 0, 0));
         if (drops){
             Instantiate(drop, transform.position, transform.rotation);
         }
