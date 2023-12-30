@@ -106,7 +106,7 @@
     <None Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Shaders\Dissolve.shader" />
     <None Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Shaders\Plasma.shader" />
     <None Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Shaders\Outline.shader" />
-    <None Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
+    <None Include="Assets\Recursos Visuales\JMO Assets\CFX Prefabs\Texts\_Make your own text effect.txt" />
     <None Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Shaders\Plexus\Plexus Line.shader" />
     <None Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
     <None Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Shaders\Snow.shader" />

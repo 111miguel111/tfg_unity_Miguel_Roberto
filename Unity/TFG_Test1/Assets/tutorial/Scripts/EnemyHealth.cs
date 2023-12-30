@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -47,13 +48,16 @@ public class EnemyHealth : MonoBehaviour{
     public void playSound(AudioClip[] sounds)
     {
         AudioClip tempClip = sounds[Random.Range(0, sounds.Length)];
-        enemyAS.clip = tempClip;
-        enemyAS.Play();
+        enemyAS.PlayOneShot(tempClip);
+        //enemyAS.clip = tempClip;
+        //enemyAS.Play();
     }
     void makeDead(){
         //turn off movement
         //create ragdoll
-        playSound(deathSounds);
+        //playSound(deathSounds);
+        AudioClip tempClip = deathSounds[Random.Range(0, deathSounds.Length)];
+        AudioSource.PlayClipAtPoint(tempClip,transform.position);
         damageFX(deathParticles, transform.position, new Vector3(0, 0, 0));
         if (drops){
             Instantiate(drop, transform.position, drop.transform.rotation);

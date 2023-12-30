@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84bcf4f9634298e499e7ffa92e5b4a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 5
   speed: 5
 --- !u!135 &2472671709478956254
 SphereCollider:
@@ -103,7 +103,7 @@ Transform:
   - {fileID: 6102728264336642550}
   - {fileID: 3769690091144474608}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &4373872542664370739
 Rigidbody:

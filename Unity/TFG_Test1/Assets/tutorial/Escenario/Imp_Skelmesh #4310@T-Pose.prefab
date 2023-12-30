@@ -254,7 +254,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FlipModel: {fileID: 3443782885158202871}
-  IdleSounds: []
+  IdleSounds:
+  - {fileID: 8300000, guid: 10f1c664a72058045bb593a0b86004e2, type: 3}
+  - {fileID: 8300000, guid: 9622398f72a51344d9d0d8fd4bba3039, type: 3}
+  - {fileID: 8300000, guid: b954fc4ab1a2d0747b529dd7608394a5, type: 3}
+  - {fileID: 8300000, guid: 4a2dbd2f35b3213449e7434da703d09f, type: 3}
+  - {fileID: 8300000, guid: 31c35f258626d1d4fb8e7e98efec034b, type: 3}
+  - {fileID: 8300000, guid: 27eee895b34027d4cac00ab635266e39, type: 3}
+  - {fileID: 8300000, guid: 7216fffe96bc7e24da45c952d4c3aee6, type: 3}
+  - {fileID: 8300000, guid: 8a124711a4ee63c4f890d89660ee86c6, type: 3}
+  - {fileID: 8300000, guid: 4afc8626554131b4e8435f9188339e02, type: 3}
+  - {fileID: 8300000, guid: 95807a47149bc4d43890e125b044e09a, type: 3}
+  - {fileID: 8300000, guid: a724facb25fa65b499c3b08c9c1b2741, type: 3}
+  - {fileID: 8300000, guid: e381fee5312f827448207fb45831ee7d, type: 3}
+  - {fileID: 8300000, guid: 227d4eff512d4a047840d188394b1ada, type: 3}
+  - {fileID: 8300000, guid: 1710b389e2fe39449832a0bc12a91eb4, type: 3}
   IdleSoundTime: 1
   detectionTime: 1
   runSpeed: 4
@@ -676,6 +690,7 @@ GameObject:
   - component: {fileID: 2486484813056797919}
   - component: {fileID: 758310771789975669}
   - component: {fileID: 9169347182909723798}
+  - component: {fileID: 4550842200812871091}
   m_Layer: 9
   m_Name: Imp_Skelmesh #4310@T-Pose
   m_TagString: Enemy
@@ -702,7 +717,7 @@ Transform:
   - {fileID: 3923932753452524462}
   - {fileID: 2966322679691622463}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!54 &1446728443779135391
 Rigidbody:
@@ -783,7 +798,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d06e791dde3d13f47a040ff8f50b8a0e, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -887,6 +902,45 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4550842200812871091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3443782885158202871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744b97f6c5bcd7842b2cdacad3d4edbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyMaxHealth: 30
+  currentHealth: 0
+  damageModifier: 1
+  damageParticles: {fileID: 7458342281794802671, guid: 1f74b844821c8f441b7af931929f4e59, type: 3}
+  deathParticles: {fileID: 5045138405618836422, guid: 8a0bb2c3147c8474fabc0adaeb4e44d5, type: 3}
+  drop: {fileID: 2353746121612977914, guid: 92309035097cfd44a8410a4e075d25bb, type: 3}
+  drops: 1
+  deathSounds:
+  - {fileID: 8300000, guid: 543c94b927ab9f54d8d9e4cdb7cebb6d, type: 3}
+  - {fileID: 8300000, guid: 721806bc8a580ab49b3e8701be329b58, type: 3}
+  - {fileID: 8300000, guid: 2187bc618e46c234490d780bded17061, type: 3}
+  - {fileID: 8300000, guid: 4b1dae76d5aa9304c952d06d02440bba, type: 3}
+  - {fileID: 8300000, guid: c5069d3f8c5bdc34ab3af658d6966e93, type: 3}
+  - {fileID: 8300000, guid: 5a0dbdddca015634982fdb51eafcfe4a, type: 3}
+  - {fileID: 8300000, guid: fb54d8a2b0bca9643a1a8f351b63a431, type: 3}
+  - {fileID: 8300000, guid: 5b52abfe2aac7a8468b0762408cca2fc, type: 3}
+  damageSounds:
+  - {fileID: 8300000, guid: 0b5589782543c294781cd9fb710c4d72, type: 3}
+  - {fileID: 8300000, guid: b0f68009e941f99498d99e6399147c2b, type: 3}
+  - {fileID: 8300000, guid: cb5d88410adca4a4d99e459ab9f55cd9, type: 3}
+  - {fileID: 8300000, guid: e835169c6f777324b835c3f71f16ea17, type: 3}
+  - {fileID: 8300000, guid: 58d3000d3c4c1504a9f4ce84c78db8ea, type: 3}
+  - {fileID: 8300000, guid: 4d35ad9111c4c90468e0ab490d8c6307, type: 3}
+  - {fileID: 8300000, guid: 55b3ad544a3109b46b9d34ed3192784b, type: 3}
+  - {fileID: 8300000, guid: 25d4bd8183dcac84f948434a26d19e2e, type: 3}
+  - {fileID: 8300000, guid: d1ed690b70e81a54d858c73c28c5a5ac, type: 3}
+  - {fileID: 8300000, guid: 33b06fe91bbeb2e43aec28d1949e8949, type: 3}
 --- !u!1 &3575540207183914827
 GameObject:
   m_ObjectHideFlags: 0
