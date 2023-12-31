@@ -386,6 +386,7 @@
 "Assets/tutorial/Scripts/playerHealth.cs"
 "Assets/tutorial/Scripts/shootBullet.cs"
 "Assets/tutorial/Scripts/shootFireball.cs"
+"Assets/tutorial/Scripts/shootSpread.cs"
 "Assets/tutorial/Scripts/slayerAppareance.cs"
 "Assets/tutorial/Scripts/ZombieController.cs"
 -langversion:9.0
