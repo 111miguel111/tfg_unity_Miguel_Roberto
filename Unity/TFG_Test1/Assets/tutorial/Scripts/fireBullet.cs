@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class fireBullet : MonoBehaviour{
 
@@ -13,6 +14,10 @@ public class fireBullet : MonoBehaviour{
     //Audio
     AudioSource gunMuzzleAS;
     public AudioClip shootSound;
+    public AudioClip pickWeapon;
+    //graphic info
+    public Sprite weaponSprite;
+    public Image weaponImage;
 
     // Start is called before the first frame update
     void Awake(){
@@ -44,5 +49,11 @@ public class fireBullet : MonoBehaviour{
     {
         gunMuzzleAS.clip = theSound;
         gunMuzzleAS.Play();
+    }
+    public void initializeWeapon()
+    {
+        playASound(pickWeapon);
+        nextBullet = Time.time + startBullet;
+        weaponImage.sprite = weaponSprite;
     }
 }

@@ -81,6 +81,7 @@
     <Compile Include="Assets\Recursos Visuales\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\tutorial\Scripts\playerController.cs" />
     <Compile Include="Assets\tutorial\Scripts\ImpController.cs" />
+    <Compile Include="Assets\InventoryManager.cs" />
     <Compile Include="Assets\tutorial\Scripts\cameraFollow.cs" />
     <Compile Include="Assets\tutorial\Scripts\meleeScript.cs" />
     <Compile Include="Assets\Recursos Visuales\Ultimate 10 Plus Shaders\Scripts\U10PS_DissolveOverTime.cs" />
