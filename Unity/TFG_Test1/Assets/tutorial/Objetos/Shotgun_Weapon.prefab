@@ -162,11 +162,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56aed2190c3c01e4b98f3b3a40c346da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenBullets: 0.15
+  timeBetweenBullets: 1.2
   projectile: {fileID: 2557831266137758998, guid: f985ceb00ad6f634d9b3f2a14ba25e96, type: 3}
   startBullet: 0.1
-  shootSound: {fileID: 8300000, guid: a9aba60d6bc637d4588b0031b7694f5c, type: 3}
-  pickWeapon: {fileID: 8300000, guid: 4723b5b8314e7d046a9ab6914ba5f20e, type: 3}
+  shootSound: {fileID: 8300000, guid: e81d3090d2b648e449ac17e72f04571c, type: 3}
+  pickWeapon: {fileID: 8300000, guid: 52011ecdf6a8c4448823667053f2399b, type: 3}
   weaponSprite: {fileID: 21300000, guid: 2ff2f3c5d2505374785163250bea5668, type: 3}
   weaponImage: {fileID: 0}
 --- !u!114 &2262163727842672012

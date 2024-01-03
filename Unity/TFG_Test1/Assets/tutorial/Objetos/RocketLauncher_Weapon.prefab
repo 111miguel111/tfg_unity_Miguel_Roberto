@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6550555093647462400
 Transform:
   m_ObjectHideFlags: 0
@@ -79,11 +79,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56aed2190c3c01e4b98f3b3a40c346da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenBullets: 0.75
+  timeBetweenBullets: 1.75
   projectile: {fileID: 752550506338552379, guid: 0459879406026a043b63070aceb2456a, type: 3}
   startBullet: 0.1
-  shootSound: {fileID: 8300000, guid: 8c9c95fc515a63b48ae12495c88ea6ff, type: 3}
-  pickWeapon: {fileID: 8300000, guid: 59f30339d3649d9449b0b0d202d3922d, type: 3}
+  shootSound: {fileID: 8300000, guid: 3983d53d15572194d9c1cd24e84dcb56, type: 3}
+  pickWeapon: {fileID: 8300000, guid: 9621e37a1d97c044b9f3b36a90c903b4, type: 3}
   weaponSprite: {fileID: 21300000, guid: e380ae8b51c048041a3cefd25313a7a1, type: 3}
   weaponImage: {fileID: 0}
 --- !u!114 &620301502718129830
