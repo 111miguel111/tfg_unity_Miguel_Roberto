@@ -5,55 +5,53 @@ using UnityEngine.UI;
 
 public class fireBullet : MonoBehaviour{
 
-    public float timeBetweenBullets;
-    public GameObject projectile;
+    public float timeBetweenBullets;//Velocidad a la que disparas
+    public GameObject projectile;//Lo que disparas
 
-    float nextBullet;
-    public float startBullet;
+    float nextBullet;//Para que el codigo sepa cuando sale el siguiente proyectil
+    public float startBullet;//El tiempo minimo que tardas en disparar el primer proyectil(No tocar)
 
     //Audio
-    AudioSource gunMuzzleAS;
-    public AudioClip shootSound;
-    public AudioClip pickWeapon;
+    AudioSource gunMuzzleAS;//Donde suenan los audios
+    public AudioClip shootSound;//Sonido al disparar
+    public AudioClip pickWeapon;//Sonido al cambiar al arma
     //graphic info
-    public Sprite weaponSprite;
-    public Image weaponImage;
+    public Sprite weaponSprite;//El sprite que se pone en el hud
+    public Image weaponImage;//En que parte del hud se pone
 
-    // Start is called before the first frame update
     void Awake(){
-        nextBullet = Time.time + startBullet;
-        gunMuzzleAS = GetComponent<AudioSource>();
+        nextBullet = Time.time + startBullet;//Seteamos el tiempo de el primer proyectil para controlar los demas
+        gunMuzzleAS = GetComponent<AudioSource>();//Seteamos el lugar donde sonaran los audios
     }
 
     // Update is called once per frame
     void Update(){
-        playerController myPlayer = transform.root.GetComponent<playerController>();
-        if (Input.GetAxisRaw("Fire1")>0 && nextBullet<Time.time){
-            nextBullet = Time.time+timeBetweenBullets;
-            Vector3 rot;
-            if (myPlayer.getFacing()==-1f){
+        playerController myPlayer = transform.root.GetComponent<playerController>();//Obtenemos el controlador del jugador
+
+        if (Input.GetAxisRaw("Fire1")>0 && nextBullet<Time.time){//Miramos que se pulsa el boton de disparar y si el tiempo entre proyectiles es el adecuado continuamos
+            nextBullet = Time.time+timeBetweenBullets;//Acctualizamos el tiempo para el siguiente proyectil
+            Vector3 rot;//Vector para la direccion en la que se crea mirando el proyectil
+            if (myPlayer.getFacing()==-1f){//Con el playerController comprobamos en que direccion estamos mirando 1==DERECHA -1==IZQUIERDA
                 rot = new Vector3(0, -90, 0);
             }
             else{
                 rot = new Vector3(0, 90, 0);
             }
-            Instantiate(projectile, transform.position, Quaternion.Euler(rot));
-            playASound(shootSound);
+            Instantiate(projectile, transform.position, Quaternion.Euler(rot));//Creamos el proyectil 
+
+            AudioSource.PlayClipAtPoint(shootSound, transform.position);//Hacemos sonar el sonido de disparo en el mundo
         }
-        if (Input.GetAxisRaw("Fire1") < 1)
+        if (Input.GetAxisRaw("Fire1") < 1)//Si dejas de pulsar el boton de dispara reseteamos la variable del siguiente proyectil
         {
-            nextBullet = Time.time + startBullet;
+            nextBullet = Time.time + startBullet;//Ponemos el proximo proyectil igual al primer proyectil
         }
     }
-    void playASound(AudioClip theSound)
+    
+    public void initializeWeapon()//Este metodo se encarga de activar el arma cuando la seleccionas en tu inventario
     {
-        gunMuzzleAS.clip = theSound;
-        gunMuzzleAS.Play();
-    }
-    public void initializeWeapon()
-    {
-        playASound(pickWeapon);
-        nextBullet = Time.time + startBullet;
-        weaponImage.sprite = weaponSprite;
+        gunMuzzleAS.clip = pickWeapon;//Seleccionamos el audio
+        gunMuzzleAS.Play();//Hacemos sonar el audio de cambiar arma en el AudioSource 
+        nextBullet = Time.time + startBullet;//Reiniciamos el tiempo del primer disparo
+        weaponImage.sprite = weaponSprite;//Ponemos el sprite del arma en el hud
     }
 }

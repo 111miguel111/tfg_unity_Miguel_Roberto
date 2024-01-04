@@ -28,9 +28,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 391682666510635350}
+  - {fileID: 6590261900267210100}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6701331186147041951
 PrefabInstance:
@@ -134,12 +134,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 208625949665015485}
   m_SourcePrefab: {fileID: 100100000, guid: 940eff75500002041a9f7d363dba3c45, type: 3}
---- !u!4 &391682666510635350 stripped
+--- !u!4 &6590261900267210100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 940eff75500002041a9f7d363dba3c45, type: 3}
   m_PrefabInstance: {fileID: 6701331186147041951}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4072183272633021761 stripped
+--- !u!1 &7393103108024869219 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4208188539774567420, guid: 940eff75500002041a9f7d363dba3c45, type: 3}
   m_PrefabInstance: {fileID: 6701331186147041951}
@@ -151,7 +151,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4072183272633021761}
+  m_GameObject: {fileID: 7393103108024869219}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 51cd15b4142aa914ea6229fd64b1c61a, type: 2}
@@ -171,7 +171,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4072183272633021761}
+  m_GameObject: {fileID: 7393103108024869219}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -192,11 +192,11 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4072183272633021761}
+  m_GameObject: {fileID: 7393103108024869219}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85d877db5c0be7c4d9391a6d617587fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whichWeapon: 3
+  whichWeapon: 4
   pickUpClip: {fileID: 8300000, guid: 70d3ccb89cdc1f84ba6d5b6d67eabf9a, type: 3}
