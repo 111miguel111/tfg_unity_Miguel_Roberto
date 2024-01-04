@@ -14,15 +14,14 @@ public class meleeScript : MonoBehaviour
 
     Animator myAnim;
     playerController myPC;
+
     // Start is called before the first frame update
     void Start()
     {
         shootableMask = LayerMask.GetMask("Shootable");
         myAnim =transform.root.GetComponent<Animator>();
         myPC = transform.root.GetComponent<playerController>();
-        nextMelee = 3f;
-
-
+        nextMelee = Time.time + meleeRate;
     }
 
     // Update is called once per frame
@@ -32,7 +31,7 @@ public class meleeScript : MonoBehaviour
         if (melee > 0 && nextMelee<Time.time && !(myPC.getShooting())) 
         {
             myAnim.SetTrigger("gunMelee");
-            nextMelee += Time.deltaTime+meleeRate;
+            nextMelee = Time.time+meleeRate;
             //do damage
             Collider[] attacked = Physics.OverlapSphere(transform.position, knockBackRadius, shootableMask);
             int i = 0;
@@ -42,7 +41,6 @@ public class meleeScript : MonoBehaviour
                 {
                     EnemyHealth doDamage = attacked[i].GetComponent<EnemyHealth>();
                     doDamage.addDamage(damage);
-
 
                     GameObject enemy = attacked[i].gameObject;
                     pushBack(enemy.transform);
@@ -55,9 +53,15 @@ public class meleeScript : MonoBehaviour
 
     void pushBack(Transform pushedObject)
     {
-        //Knockback vertical no funciona no se porque y la direccion del knockback depende del lado del mapa en el que estes (ambos pasan a estar negativos, habria que invertir facing o algo)
-        Vector3 pushDirection = new Vector3(transform.root.GetComponent<playerController>().getFacing()*(pushedObject.position.x + transform.position.x), (pushedObject.position.y - transform.position.y), 0).normalized;
-        Debug.Log("PO"+pushedObject.position.x+" | "+"Tf"+ transform.position.x);
+        //Variable que determina cuanto se mueve el enemigo
+        float movimientoX = pushedObject.position.x + transform.position.x;
+        //Si la variable es negativa se cambia a positivo para que no se acerque mas en vez de alejarse
+        if (movimientoX < 0)
+        {
+            movimientoX *=-1;
+        }
+        //Knockback vertical no funciona no se porque
+        Vector3 pushDirection = new Vector3(transform.root.GetComponent<playerController>().getFacing()*(movimientoX), (pushedObject.position.y - transform.position.y), 0).normalized;
         pushDirection *= knockBack;
 
         Rigidbody pushedRB = pushedObject.GetComponent<Rigidbody>();
