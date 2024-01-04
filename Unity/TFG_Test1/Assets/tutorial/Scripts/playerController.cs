@@ -12,7 +12,7 @@ public class playerController : MonoBehaviour
 
     bool runningBool;
     bool shootingBool;
-    bool facingRight;//Para saber si esta mirando a la derecha
+    public bool facingRight;//Para saber si esta mirando a la derecha
 
     //for jumping
     bool grounded = false;//Si esta tocando suelo

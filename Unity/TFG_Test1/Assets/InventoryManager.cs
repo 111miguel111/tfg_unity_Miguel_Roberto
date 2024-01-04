@@ -20,11 +20,11 @@ public class InventoryManager : MonoBehaviour
             weaponAvailable[i]=false;
         }
         currentWeapon = 0;
-        //weaponAvailable[currentWeapon] = true;
-        for (int i = 0; i < weapons.Length; i++)
-        {
-            weaponAvailable[i] = true;
-        }
+        weaponAvailable[currentWeapon] = true;
+        //for (int i = 0; i < weapons.Length; i++)
+        //{
+        //    weaponAvailable[i] = true;
+        //}
         deactivateWeapons();
 
         setWeaponActive(currentWeapon);
