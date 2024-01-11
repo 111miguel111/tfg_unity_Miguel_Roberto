@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 492
     width: 991
     height: 455
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 166
+  controlID: 170
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: AnimatorControllerTool
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -191,15 +191,15 @@ MonoBehaviour:
     y: 0
     width: 991
     height: 492
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,8 +244,8 @@ MonoBehaviour:
     y: 0
     width: 450
     height: 477
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -339,7 +339,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -57346
+  m_LastSelectedObjectID: -6460
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -768,9 +768,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15.662996, y: -41.785164, z: 97.81819}
+    m_Target: {x: 9.88323, y: -57.96358, z: 89.37546}
     speed: 2
-    m_Value: {x: 15.662996, y: -41.785164, z: 97.81819}
+    m_Value: {x: 9.88323, y: -57.96358, z: 89.37546}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -816,13 +816,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.07025608, y: 0.057897408, z: 0.0047948076, w: 0.9967466}
+    m_Target: {x: 0.15950108, y: 0.027066143, z: 0.0049110437, w: 0.9877401}
     speed: 2
-    m_Value: {x: 0.070185155, y: 0.056351118, z: 0.0048957462, w: 0.99592906}
+    m_Value: {x: 0.1593555, y: 0.02704144, z: 0.0049065617, w: 0.98683864}
   m_Size:
-    m_Target: 52.93927
+    m_Target: 52.90868
     speed: 2
-    m_Value: 52.93927
+    m_Value: 52.90868
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -893,6 +893,8 @@ MonoBehaviour:
     - {fileID: 1221538345824124781, guid: 0c28fb15e0ac9e442a743a011fbbb054, type: 2}
     - {fileID: 3766874194823184899, guid: 6cb062d94a64f7d4f8ee6c614443694c, type: 2}
     - {fileID: 2581811516261383716, guid: 04e85ad6f84146e40b0e9157022df3b4, type: 2}
+    - {fileID: 2196510889282231911, guid: 83f372a387a485647b40d99d591bfeac, type: 2}
+    - {fileID: 4186440292319247958, guid: ea6b6a3f64e35bc43a2cb6ac254a4801, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -1054,10 +1056,42 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.81789476
+      e01: 0
+      e02: 0
+      e03: -25.894714
+      e10: 0
+      e11: 0.81789476
+      e12: 0
+      e13: 138.3
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 04e85ad6f84146e40b0e9157022df3b4, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: ea6b6a3f64e35bc43a2cb6ac254a4801, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 2581811516261383716, guid: 04e85ad6f84146e40b0e9157022df3b4, type: 2}
+  - m_Target: {fileID: 4186440292319247958, guid: ea6b6a3f64e35bc43a2cb6ac254a4801, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1107,9 +1141,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 64800000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f84bfeffbcedffff06efffff0aefffff0eefffff12efffff16efffff1aeffffff4efffff066a00001c6c00003a6f0000
+      m_ExpandedIDs: 10e8ffff64730000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1178,7 +1212,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/Enemigos/doom-eternal-cueball-toy
+    - Assets/Models/Enemigos/doom-eternal-tyrant-toy/Tyrant_Toy/Animations
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1186,16 +1220,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Models/Enemigos/doom-eternal-cueball-toy
+  - Assets/Models/Enemigos/doom-eternal-tyrant-toy/Tyrant_Toy/Animations
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\migue\Desktop\tfg_unity_Miguel_Roberto\Unity\TFG_Test1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 175}
-    m_SelectedIDs: 3c800000
-    m_LastClickedID: 32828
-    m_ExpandedIDs: 000000004c1f00006c7c0000707c0000767c00007a7c00007e7c0000807c0000827c0000847c0000867c0000887c00008a7c00008c7c00008e7c0000907c0000927c0000947c0000967c0000987c00009a7c00009c7c00009e7c0000a07c0000a27c0000a47c0000a67c0000a87c0000aa7c0000ac7c0000ae7c0000b07c0000b27c0000b47c0000b67c0000b87c0000ba7c0000bc7c0000fc7e0000007f0000247f00006c820000
+    scrollPos: {x: 0, y: 371}
+    m_SelectedIDs: 46aa0000
+    m_LastClickedID: 43590
+    m_ExpandedIDs: 00000000a6860000a8860000aa860000ac860000ae860000b0860000b2860000b4860000b6860000b8860000ba860000bc860000be860000c0860000c2860000c4860000c6860000c8860000ca860000cc860000ce860000d0860000d2860000d4860000d6860000d8860000da860000dc860000de860000e0860000e2860000e4860000e6860000e8860000ea860000ec860000ee860000f0860000f2860000f48600004e89000040aa0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1223,7 +1257,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006c7c00006e7c0000707c0000727c0000747c0000767c0000787c00007a7c00007c7c00007e7c0000807c0000827c0000847c0000867c0000887c00008a7c00008c7c00008e7c0000907c0000927c0000947c0000967c0000987c00009a7c00009c7c00009e7c0000a07c0000a27c0000a47c0000a67c0000a87c0000aa7c0000ac7c0000ae7c0000b07c0000b27c0000b47c0000b67c0000b87c0000ba7c0000bc7c0000
+    m_ExpandedIDs: 00000000a6860000a8860000aa860000ac860000ae860000b0860000b2860000b4860000b6860000b8860000ba860000bc860000be860000c0860000c2860000c4860000c6860000c8860000ca860000cc860000ce860000d0860000d2860000d4860000d6860000d8860000da860000dc860000de860000e0860000e2860000e4860000e6860000e8860000ea860000ec860000ee860000f0860000f2860000f4860000f6860000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1250,7 +1284,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fa6f0000ba960000d0680000f89e00003e6b000086630000706300004e6a0000f66a0000000000004c970000048f00005a5e0000ee6400009c93000098730000a0630000106d00008e2c0100662b01001465000034d7000042d300005aa40000daae0000d0150200de640000da820000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1320,7 +1354,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 748
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
