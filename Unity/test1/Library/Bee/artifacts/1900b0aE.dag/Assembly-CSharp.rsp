@@ -511,6 +511,7 @@
 "Assets/Prefabs/Player/PlayerScripts/playerInventoryManager.cs"
 "Assets/Prefabs/Player/PlayerScripts/slayerAppareance.cs"
 "Assets/Prefabs/Scripts/cleaner.cs"
+"Assets/Prefabs/Scripts/DeathMenu.cs"
 "Assets/Prefabs/Scripts/destroyMe.cs"
 "Assets/Prefabs/Scripts/MainMenu.cs"
 "Assets/Prefabs/Scripts/PauseMenu.cs"

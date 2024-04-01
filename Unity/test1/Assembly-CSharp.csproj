@@ -119,6 +119,7 @@
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Shaders_Render\OToon- URP Toon Shading\Demo(Can be delete)\Scenes\2 NPRStyles RobotKyle\Scripts\DemoController.cs" />
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Prefabs\Scripts\DeathMenu.cs" />
     <Compile Include="Assets\Shaders_Render\OToon- URP Toon Shading\Demo(Can be delete)\Scripts\CameraController.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\ExtraPlayerScripts\OnSquishRespawner.cs" />
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
