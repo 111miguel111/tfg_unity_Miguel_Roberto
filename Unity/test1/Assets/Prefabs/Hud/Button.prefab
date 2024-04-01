@@ -28,7 +28,7 @@ RectTransform:
   m_GameObject: {fileID: 2408338130390614209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.7, y: 2.7, z: 2.7}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 68556192938988078}
@@ -38,8 +38,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -600.5, y: 10}
-  m_SizeDelta: {x: 108.43628, y: 33.9116}
+  m_AnchoredPosition: {x: -120.66382, y: 25.228994}
+  m_SizeDelta: {x: 95.7086, y: 17.3656}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &780642280008820925
 CanvasRenderer:
@@ -64,13 +64,13 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_RaycastPadding: {x: 2, y: 14, z: 2, w: 14}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 1a549f0be59e98c48a2c3a87d6fd9eea, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -119,7 +119,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2887998958538557804}
+  m_TargetGraphic: {fileID: 5163884777513123425}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -162,8 +162,8 @@ RectTransform:
   m_GameObject: {fileID: 3162542071197069247}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 0.5, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1669430381488987507}
   m_RootOrder: -1
@@ -171,7 +171,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 100, y: 41.433}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3514690134916018622
 CanvasRenderer:
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_RaycastPadding: {x: 2, y: 14, z: 2, w: 14}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
