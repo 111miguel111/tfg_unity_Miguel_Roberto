@@ -11,6 +11,8 @@ using System.Collections.Generic;
 
 public partial class ControlledCapsuleCollider : ControlledCollider
 {
+    public static ControlledCapsuleCollider instance;
+
     List<CapsuleCollisionOccurrance> m_Collisions = new List<CapsuleCollisionOccurrance>();
 
     CCState m_State = new CCState();
@@ -29,6 +31,7 @@ public partial class ControlledCapsuleCollider : ControlledCollider
         {
             Debug.LogError("ControlledCapsuleCollider Layermask will hit the player itself! Please uncheck the \"" + LayerMask.LayerToName(gameObject.layer) + "\" layer in the ControlledCapsuleCollider collision LayerMask, or switch the player GameObject layer to one not covered by that LayerMask");
         }
+        instance = this;
     }
 
     void Update()

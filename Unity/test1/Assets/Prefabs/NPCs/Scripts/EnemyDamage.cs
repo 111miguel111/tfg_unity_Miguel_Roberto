@@ -7,6 +7,7 @@ public class EnemyDamage : MonoBehaviour
     public float damage;
     public float damageRate;
     public float pushBackForce;
+    public float horizontalStartingLift;
 
     float nextDamege;
 
@@ -30,11 +31,20 @@ public class EnemyDamage : MonoBehaviour
         {
             Attack();
         }
+        if (ControlledCapsuleCollider.instance.IsGrounded())
+        {
+            Rigidbody pushedRB = thePlayer.transform.GetComponent<Rigidbody>();
+            pushedRB.velocity = Vector3.zero;
+        }
     }
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
+            //if (ControlledCapsuleCollider.instance.IsGrounded())
+            //{
+            //    thePlayer.transform.position = new Vector3(transform.position.x,transform.position.y+0.01f,transform.position.z);
+            //}
             playerInRange = true;
         }
     }
@@ -57,7 +67,12 @@ public class EnemyDamage : MonoBehaviour
     void pushBack(Transform pushedObject)
     {
         print("ayuda");
-        Vector3 pushDirection = new Vector3(0, (pushedObject.position.y - transform.position.y), 0).normalized;
+
+        float verticalStartingPush = ControlledCapsuleCollider.instance.IsGrounded() ? horizontalStartingLift : 0;
+
+        ControlledCapsuleCollider.instance.SetVelocity(new Vector2(0, verticalStartingPush));
+
+        Vector3 pushDirection = new Vector3((pushedObject.position.x - transform.position.x), (pushedObject.position.y - transform.position.y), 0).normalized;
         pushDirection *= pushBackForce;
 
         Rigidbody pushedRB = pushedObject.GetComponent<Rigidbody>();

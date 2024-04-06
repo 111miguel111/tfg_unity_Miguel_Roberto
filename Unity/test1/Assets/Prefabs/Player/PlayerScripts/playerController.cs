@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class playerController : MonoBehaviour
 {
-    
+    public static playerController instance;
 
     bool runningBool;
     bool shootingBool;
     public bool facingRight;//Para saber si esta mirando a la derecha
 
-
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
-    {facingRight = true;
+    {
+        facingRight = true;
     }
 
     // Update is called once per frame
