@@ -125,6 +125,7 @@
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Prefabs\Game\DemoObjects\AnimatedMover.cs" />
     <Compile Include="Assets\Prefabs\FX\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\Prefabs\Scripts\LevelFX.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityUnlocks\LevelStartAbilityLock.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\LadderClimbModule.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\AbilityModuleManager.cs" />

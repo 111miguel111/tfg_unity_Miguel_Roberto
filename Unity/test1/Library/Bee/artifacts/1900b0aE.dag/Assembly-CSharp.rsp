@@ -513,6 +513,7 @@
 "Assets/Prefabs/Scripts/cleaner.cs"
 "Assets/Prefabs/Scripts/DeathMenu.cs"
 "Assets/Prefabs/Scripts/destroyMe.cs"
+"Assets/Prefabs/Scripts/LevelFX.cs"
 "Assets/Prefabs/Scripts/MainMenu.cs"
 "Assets/Prefabs/Scripts/PauseMenu.cs"
 "Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/SprintBone/SpringBone.cs"

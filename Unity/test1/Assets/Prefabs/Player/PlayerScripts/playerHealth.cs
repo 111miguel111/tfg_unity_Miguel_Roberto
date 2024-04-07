@@ -5,21 +5,24 @@ using UnityEngine.UI;
 
 public class playerHealth : MonoBehaviour
 {
-    float currentHealth;
+    public float currentHealth;
     public float fullHealth;
+    public float lowHealth;
 
     public GameObject playerDeathFX;
     public GameObject playerDeathFX2;
 
-    //HUD
+    [Header("HUD")]
     public Slider playerHealthSlider;
     public Image damageScreen;
     Color flashColor = new Color(255f, 0f, 0f,1f);
     float flashSpeed = 5f;
     bool damaged = false;
 
-    //AudioSource
+    [Header("AudioSource")]
     AudioSource playerAS;
+    public AudioClip[] damageSounds;
+    public AudioClip[] lowHealthSounds;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +46,13 @@ public class playerHealth : MonoBehaviour
             damageScreen.color = Color.Lerp(damageScreen.color,Color.clear, flashSpeed * Time.deltaTime);
         }
         damaged = false;
+
+        if (currentHealth <= lowHealth && lowHealthSounds.Length > 0 && !playerAS.isPlaying)
+        {
+            playerAS.clip = lowHealthSounds[(int)Random.Range(0, lowHealthSounds.Length)];
+            playerAS.Play();
+            
+        }
     }
 
     public void addDamage(float damage)
@@ -51,7 +61,11 @@ public class playerHealth : MonoBehaviour
         playerHealthSlider.value = currentHealth;
         damaged = true;
         Instantiate(playerDeathFX, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-        playerAS.Play();
+        if(damageSounds.Length>0){
+            playerAS.clip = damageSounds[(int)Random.Range(0, damageSounds.Length)];
+            playerAS.Play();
+        }
+        
         if(currentHealth <= 0) {
             makeDead();
         }

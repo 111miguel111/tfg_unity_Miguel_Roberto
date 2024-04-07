@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class DeathMenu : MonoBehaviour
 {
+    public float waitTime;
     public string mainMenu;
     public string currentScene;
     public GameObject player;
@@ -22,7 +23,17 @@ public class DeathMenu : MonoBehaviour
     {
         if (player.IsDestroyed())
         {
+            StartCoroutine(waiter());
+        }
+    }
+
+    IEnumerator waiter()
+    {
+        yield return new WaitForSeconds(waitTime);
+        if (!deathMenu.activeSelf)
+        {
             deathMenu.gameObject.SetActive(true);
+            LevelFX.instanciate.playMenuMusic(LevelFX.instanciate.deathMenuSong);
         }
     }
 

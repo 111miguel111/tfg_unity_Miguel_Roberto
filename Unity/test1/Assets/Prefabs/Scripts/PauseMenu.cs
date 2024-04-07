@@ -31,12 +31,14 @@ public class PauseMenu : MonoBehaviour
             isPaused = false;
             pauseScreen.SetActive(false);
             Time.timeScale = 1.0f;
+            LevelFX.instanciate.playerAS.volume = .25f;
         }
         else
         {
             isPaused = true;
             pauseScreen.SetActive(true);
             Time.timeScale = 0.0f;
+            LevelFX.instanciate.playerAS.volume = .05f;
         }
     }
 
