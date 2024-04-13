@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\player\\objetos\\weapons\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\player\\objetos\\weapons\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\assets\\prefabs\\scripts\\levelfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\scripts\\levelfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\assets\\prefabs\\player\\playerscripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\player\\playerscripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\assets\\prefabs\\player\\movement_asset\\code\\physics\\capsulecontroller\\controlledcapsulecollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\player\\movement_asset\\code\\physics\\capsulecontroller\\controlledcapsulecollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fire.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\fire.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\fire.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\fire.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\fire.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T08:22:32.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LevelFX.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Scripts\\LevelFX.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\Scripts\\LevelFX.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Scripts\\LevelFX.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\Scripts\\LevelFX.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-13T08:22:31.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Scripts\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\Scripts\\PauseMenu.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Scripts\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\Scripts\\PauseMenu.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwCgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T08:22:31.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "playerHealth.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\PlayerScripts\\playerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\PlayerScripts\\playerHealth.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\PlayerScripts\\playerHealth.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\Player\\PlayerScripts\\playerHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-13T08:22:31.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ControlledCapsuleCollider.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\Movement_Asset\\Code\\Physics\\CapsuleController\\ControlledCapsuleCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\Movement_Asset\\Code\\Physics\\CapsuleController\\ControlledCapsuleCollider.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\Movement_Asset\\Code\\Physics\\CapsuleController\\ControlledCapsuleCollider.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\Player\\Movement_Asset\\Code\\Physics\\CapsuleController\\ControlledCapsuleCollider.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAABJAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-04-13T08:22:31.512Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

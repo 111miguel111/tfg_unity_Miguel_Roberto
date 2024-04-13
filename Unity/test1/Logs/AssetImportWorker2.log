@@ -1,0 +1,1034 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16197 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/WORKSPACE/git/tfg_unity_Miguel_Roberto/Unity/test1
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58592
+Successfully changed project path to: E:/WORKSPACE/git/tfg_unity_Miguel_Roberto/Unity/test1
+E:/WORKSPACE/git/tfg_unity_Miguel_Roberto/Unity/test1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22320] Host "[IP] 192.168.1.137 [Port] 0 [Flags] 2 [Guid] 3406212246 [EditorId] 3406212246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8M6VI5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22320] Host "[IP] 192.168.1.137 [Port] 0 [Flags] 2 [Guid] 3406212246 [EditorId] 3406212246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8M6VI5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 350.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/WORKSPACE/git/tfg_unity_Miguel_Roberto/Unity/test1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005233 seconds.
+- Loaded All Assemblies, in  0.358 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 667ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.945 seconds
+Refreshing native plugins compatible for Editor in 10.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 1816ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (709ms)
+		LoadAssemblies (353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (410ms)
+			TypeCache.Refresh (359ms)
+				TypeCache.ScanAssembly (345ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (877ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (668ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6009 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (389.3 KB). Loaded Objects now: 6483.
+Memory consumption went from 244.5 MB to 244.1 MB.
+Total: 4.296800 ms (FindLiveObjects: 0.798100 ms CreateObjectMapping: 0.207400 ms MarkObjects: 3.037500 ms  DeleteObjects: 0.252600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 395418.313269 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/iconofsin_toy_LOD0.fbx
+  artifactKey: Guid(6f73f0500ad82074489437072bbb6d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/iconofsin_toy_LOD0.fbx using Guid(6f73f0500ad82074489437072bbb6d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659941de2665fdefccda4a77914dd1e9') in 0.019080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 47.827002 seconds.
+  path: Assets/Prefabs/NPCs/Imp/Materials/Imp_TEX.png
+  artifactKey: Guid(faa2a3f9aff20a54abb4c4557d61b711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/Imp/Materials/Imp_TEX.png using Guid(faa2a3f9aff20a54abb4c4557d61b711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30badc4babca15f3616b83fbe50fec48') in 0.006669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.016887 seconds.
+  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Controls All Platforms/Controls/Stadia/joy1.png
+  artifactKey: Guid(ac4dc55a2f4478340a166fc80edff234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Controls All Platforms/Controls/Stadia/joy1.png using Guid(ac4dc55a2f4478340a166fc80edff234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626a26c6e76a697985b7f5c357b83cb5') in 0.005432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004360 seconds.
+  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Controls All Platforms/Controls/PS4/joy1.png
+  artifactKey: Guid(15d98c77dbae583478e27563368415ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Controls All Platforms/Controls/PS4/joy1.png using Guid(15d98c77dbae583478e27563368415ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c058a766f838a8cc83bc06430fa28fa') in 0.005445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004716 seconds.
+  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Controls All Platforms/Controls/Xbox/joy1.png
+  artifactKey: Guid(a4845486b0b137648a728b9b849a4364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Controls All Platforms/Controls/Xbox/joy1.png using Guid(a4845486b0b137648a728b9b849a4364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fdba090c8234eec473330a4b49be4d') in 0.005594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004580 seconds.
+  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Controls All Platforms/Controls/Switch/joy1.png
+  artifactKey: Guid(01397e431842b7a419a44b1c7fbed7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Controls All Platforms/Controls/Switch/joy1.png using Guid(01397e431842b7a419a44b1c7fbed7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b1fc7d9dfa13b6c0f506f80747ba3b') in 0.012300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.879177 seconds.
+  path: Assets/Prefabs/Player/HUD/Images/icon_weapons_05.png
+  artifactKey: Guid(399c8a21de8f9cf40b07c0ff254ea084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/HUD/Images/icon_weapons_05.png using Guid(399c8a21de8f9cf40b07c0ff254ea084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046770f9d4d2dae86ce8c32ffdd74446') in 0.019847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Prefabs/Player/Objetos/Weapons/2_RocketLauncher/icon_weapons_04.png
+  artifactKey: Guid(2ad79dc395f4af747b7594fa4e391609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Objetos/Weapons/2_RocketLauncher/icon_weapons_04.png using Guid(2ad79dc395f4af747b7594fa4e391609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3013b680ad0d7d8cf17ac5506ab1cb6d') in 0.019970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.285461 seconds.
+  path: Assets/Prefabs/Player/Objetos/Weapons/3_Shotgun/icon_weapons_01.png
+  artifactKey: Guid(6861daa192046cc4e8f2895965dabba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Objetos/Weapons/3_Shotgun/icon_weapons_01.png using Guid(6861daa192046cc4e8f2895965dabba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9334bf26dacbb20bcf71996c15706f') in 0.002040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Player/HUD/Images/icon_abilitytype_slayer.png
+  artifactKey: Guid(4a0b1a3ef930d0a4cb5f1bb6b7f3da45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/HUD/Images/icon_abilitytype_slayer.png using Guid(4a0b1a3ef930d0a4cb5f1bb6b7f3da45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a544572266f04b65159e3848b2c62b77') in 0.011606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.043470 seconds.
+  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/hit_marker_pin.png
+  artifactKey: Guid(f3cff42e64a64a34d93fab31080dccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Doom Slayer Reticles/hit_marker_pin.png using Guid(f3cff42e64a64a34d93fab31080dccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d8fdceb94cd70e32c3693b02fe237c') in 0.001533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015274 seconds.
+  path: Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/hologram_lines.png
+  artifactKey: Guid(1a41c3e209ba51c4fbb25b4d4613c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/hologram_lines.png using Guid(1a41c3e209ba51c4fbb25b4d4613c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8315ee1733c1ff02da53bfc999fbe74a') in 0.013196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002778 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/UnityChanSSU/Materials/Textures/Back/Hoodie_Sunshine.png
+  artifactKey: Guid(ea99e25da400bf640befd4b861541223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/UnityChanSSU/Materials/Textures/Back/Hoodie_Sunshine.png using Guid(ea99e25da400bf640befd4b861541223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d863770853d520e614819b1f8234d6b') in 0.151318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.053495 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/textures/hellknight_toy_n.png
+  artifactKey: Guid(d6e45ed4739a2bf4a8448f3630d14437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/textures/hellknight_toy_n.png using Guid(d6e45ed4739a2bf4a8448f3630d14437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40307c5633f75ee90b29bcd6224f8ea8') in 0.072213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001118 seconds.
+  path: Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/hexagon_grid.png
+  artifactKey: Guid(e61a550a7ddc3304fbfe0a01919efe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/hexagon_grid.png using Guid(e61a550a7ddc3304fbfe0a01919efe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e191a36ce32173aae862b69ae306395') in 0.001571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022605 seconds.
+  path: Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/grass_normal.tga
+  artifactKey: Guid(1c3759435f9363447abb1969a2271472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/grass_normal.tga using Guid(1c3759435f9363447abb1969a2271472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c13f5d00de168bc711c917dd5ac5a3') in 0.012287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004547 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/guide.tga
+  artifactKey: Guid(d04d722a0c808412ea85876950eec517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/guide.tga using Guid(d04d722a0c808412ea85876950eec517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836509414deff3861de2ebf6ddbf1b7e') in 0.038197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002738 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/hair_01.tga
+  artifactKey: Guid(cbb65ec17f92eb44fb0dde6381b6a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/hair_01.tga using Guid(cbb65ec17f92eb44fb0dde6381b6a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff047ea5212d359448ad4557497c6f3') in 0.021517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002681 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/hair_01_NRM.tga
+  artifactKey: Guid(9eea3b9b4b755f64da2c821145616f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/hair_01_NRM.tga using Guid(9eea3b9b4b755f64da2c821145616f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707fa5905a4c96ba39f8683187e4dcfd') in 0.038584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003376 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/hair_01_SPEC.tga
+  artifactKey: Guid(c4271b2b1e8bfa949aa9230abaa7709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/hair_01_SPEC.tga using Guid(c4271b2b1e8bfa949aa9230abaa7709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53588ba0e4fd9dd469fff4b68fd6af88') in 0.037972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004457 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/textures/hellknight_toy.png
+  artifactKey: Guid(d1a1485b65569b04abcb33bda4943b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/textures/hellknight_toy.png using Guid(d1a1485b65569b04abcb33bda4943b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff72b677b1a47ae6ffaae6989ed11c4') in 0.079008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001068 seconds.
+  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d90ef966c47da4e7784990f50a4513b') in 0.001226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005549 seconds.
+  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea04032d09105eb6237eefeab792d603') in 0.001276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005553 seconds.
+  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d3184e63cbe707069fe345416e5153') in 0.001247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008052 seconds.
+  path: Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/grass_albedo.tga
+  artifactKey: Guid(f6955516f548167498290fa4664c015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/grass_albedo.tga using Guid(f6955516f548167498290fa4664c015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7595e152b1e507bfe63ba76d4b7687') in 0.001299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004814 seconds.
+  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7afe04f9385371e7523959cbd3f4c97') in 0.013568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95535667b04cf393de311df647c91b85') in 0.001299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006050 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-gargoyle-toy/textures/gargoyle_toy.png
+  artifactKey: Guid(db5cf1d4edcfd8245ad54f8c3dc81af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-gargoyle-toy/textures/gargoyle_toy.png using Guid(db5cf1d4edcfd8245ad54f8c3dc81af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678f9b0f6b6f681fdde3b104fe26e506') in 0.071815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002918 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-gargoyle-toy/textures/gargoyle_toy_n.png
+  artifactKey: Guid(b525545cd9f83f147910be98deb6bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-gargoyle-toy/textures/gargoyle_toy_n.png using Guid(b525545cd9f83f147910be98deb6bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5590d1611303f493b217af567d115c8a') in 0.090123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Prefabs/FX/Ultimate 10 Plus Shaders/arial.ttf
+  artifactKey: Guid(19ecd568395677d498b8dd3cbfc47142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/Ultimate 10 Plus Shaders/arial.ttf using Guid(19ecd568395677d498b8dd3cbfc47142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caeba984e35be715b35853b26cc457c8') in 0.048041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Shaders_Render/TextMesh Pro/Resources/Fonts & Materials/FontSource/EternalUiBold-p7mZ1.ttf
+  artifactKey: Guid(64e21329dd78c754e847be5c942e8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/TextMesh Pro/Resources/Fonts & Materials/FontSource/EternalUiBold-p7mZ1.ttf using Guid(64e21329dd78c754e847be5c942e8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2091a07ecf562e7fa22d45b42b78554e') in 0.001925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.265931 seconds.
+  path: Assets/Shaders_Render/TextMesh Pro/Resources/Fonts & Materials/FontSource/EternalUiRegular-BWZGd.ttf
+  artifactKey: Guid(ceef2f735c9ab75488b837e7ea600993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/TextMesh Pro/Resources/Fonts & Materials/FontSource/EternalUiRegular-BWZGd.ttf using Guid(ceef2f735c9ab75488b837e7ea600993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60afc21d723e0b561c99638b275e4500') in 0.012182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.043114 seconds.
+  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b0dfa75dcbbd4afc7d5b5cc6ec3b4b') in 0.008116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014775 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/FO_RIM1.tga
+  artifactKey: Guid(a18067604964b5a4d8fd5552ed0d789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/FO_RIM1.tga using Guid(a18067604964b5a4d8fd5552ed0d789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc645bb515d36091149ef223dab8a417') in 0.001193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006080 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/FO_SKIN1.tga
+  artifactKey: Guid(a1d5b2277eb3f6245900378e6fa97575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/FO_SKIN1.tga using Guid(a1d5b2277eb3f6245900378e6fa97575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdecc92c9039e09eed656fc2afdab9a') in 0.001081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.909739 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-cueball-toy/textures/flatspec_125.png
+  artifactKey: Guid(70bc7763bea40514c87b4e44604b9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-cueball-toy/textures/flatspec_125.png using Guid(70bc7763bea40514c87b4e44604b9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c552827dda892273e835de764fa8db3f') in 0.002533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-archvile/textures/flatspec_125.png
+  artifactKey: Guid(9fda4802a9587134ebc6535a18b41d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-archvile/textures/flatspec_125.png using Guid(9fda4802a9587134ebc6535a18b41d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19a642c54336aab30571fcaa21965cb') in 0.002233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.080101 seconds.
+  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9212a07ab788e6460574834520a54901') in 0.015535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Scenes/1 Tutorials/Texture/3Tone_RampTex.png
+  artifactKey: Guid(82727f00aa7be504c83aac04d80e4218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Scenes/1 Tutorials/Texture/3Tone_RampTex.png using Guid(82727f00aa7be504c83aac04d80e4218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab912c7f28797380e1f41fe66de7447') in 0.008803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.024820 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Scenes/2 NPRStyles RobotKyle/Textures/5step 1_RampTex.png
+  artifactKey: Guid(3f0f43f77c199194e8d9c301efe69af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Scenes/2 NPRStyles RobotKyle/Textures/5step 1_RampTex.png using Guid(3f0f43f77c199194e8d9c301efe69af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608d043757a8b2cb79f3de79188d0dce') in 0.001776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008675 seconds.
+  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Scenes/3 NPRStyles ShaderBall/Textures/5step_RampTex.png
+  artifactKey: Guid(d5674c2ac82db1a4ab4cbb251d627e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Scenes/3 NPRStyles ShaderBall/Textures/5step_RampTex.png using Guid(d5674c2ac82db1a4ab4cbb251d627e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd54fd76d4b5fa15f26265a4079cc6d') in 0.001561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.955 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.451 seconds
+Domain Reload Profiling: 2399ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (698ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (339ms)
+				TypeCache.ScanAssembly (326ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1452ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (626ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 4.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5822 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (356.7 KB). Loaded Objects now: 6491.
+Memory consumption went from 208.3 MB to 208.0 MB.
+Total: 4.628200 ms (FindLiveObjects: 0.888700 ms CreateObjectMapping: 0.212100 ms MarkObjects: 3.370500 ms  DeleteObjects: 0.155900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 401.686901 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/source
+  artifactKey: Guid(fe1334f6414feb54cb57f0e23b8b5bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/source using Guid(fe1334f6414feb54cb57f0e23b8b5bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06c7a3de875e038578de83dc591122a') in 0.009532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.062022 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy
+  artifactKey: Guid(0a0a4244e411f5d46bac4690145c4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy using Guid(0a0a4244e411f5d46bac4690145c4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b5666690a5a33ab394a8f5adec6d50') in 0.000930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.510791 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations
+  artifactKey: Guid(c8c3f038bcd76ef46b3a0a20914b6685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations using Guid(c8c3f038bcd76ef46b3a0a20914b6685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ee07d167bfec83931f3fdf626b4ef4') in 0.000660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.907438 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/Iconofsin_Toy_Animator.controller
+  artifactKey: Guid(0c28fb15e0ac9e442a743a011fbbb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/Iconofsin_Toy_Animator.controller using Guid(0c28fb15e0ac9e442a743a011fbbb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985029b977e96deba867ece4edfaef0c') in 0.003601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.906 seconds
+Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.455 seconds
+Domain Reload Profiling: 2357ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (652ms)
+		LoadAssemblies (364ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (334ms)
+				TypeCache.ScanAssembly (321ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (638ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 5.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5822 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (356.8 KB). Loaded Objects now: 6496.
+Memory consumption went from 208.4 MB to 208.0 MB.
+Total: 4.707200 ms (FindLiveObjects: 0.771000 ms CreateObjectMapping: 0.220300 ms MarkObjects: 3.582800 ms  DeleteObjects: 0.132000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.898 seconds
+Refreshing native plugins compatible for Editor in 4.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.423 seconds
+Domain Reload Profiling: 2313ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (643ms)
+		LoadAssemblies (353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (346ms)
+			TypeCache.Refresh (333ms)
+				TypeCache.ScanAssembly (319ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (637ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 4.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5822 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (356.8 KB). Loaded Objects now: 6501.
+Memory consumption went from 208.4 MB to 208.1 MB.
+Total: 5.167400 ms (FindLiveObjects: 0.943700 ms CreateObjectMapping: 0.426500 ms MarkObjects: 3.628200 ms  DeleteObjects: 0.167600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 233.323391 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/mutant swiping.fbx
+  artifactKey: Guid(4943d89c46968c842b0f4232f6405a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/mutant swiping.fbx using Guid(4943d89c46968c842b0f4232f6405a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d132d2b24e15ba6ed1103205cdd00b4') in 0.030858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.902 seconds
+Refreshing native plugins compatible for Editor in 5.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.419 seconds
+Domain Reload Profiling: 2313ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (646ms)
+		LoadAssemblies (369ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (310ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (643ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5822 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (356.8 KB). Loaded Objects now: 6506.
+Memory consumption went from 208.4 MB to 208.1 MB.
+Total: 4.215700 ms (FindLiveObjects: 0.983600 ms CreateObjectMapping: 0.234500 ms MarkObjects: 2.878100 ms  DeleteObjects: 0.118100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 288.894513 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/Iconofsin_Toy_Animator.controller
+  artifactKey: Guid(0c28fb15e0ac9e442a743a011fbbb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/Iconofsin_Toy_Animator.controller using Guid(0c28fb15e0ac9e442a743a011fbbb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae466b5b11bf7fd6e27dfa3d867b97df') in 0.023381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.960 seconds
+Refreshing native plugins compatible for Editor in 4.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.489 seconds
+Domain Reload Profiling: 2444ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (711ms)
+		LoadAssemblies (435ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (340ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (313ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (632ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 3.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5822 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (356.8 KB). Loaded Objects now: 6511.
+Memory consumption went from 208.4 MB to 208.1 MB.
+Total: 4.260800 ms (FindLiveObjects: 0.814700 ms CreateObjectMapping: 0.213400 ms MarkObjects: 3.108400 ms  DeleteObjects: 0.122900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.546188 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/Iconofsin_Toy_Animator.controller
+  artifactKey: Guid(0c28fb15e0ac9e442a743a011fbbb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/Iconofsin_Toy_Animator.controller using Guid(0c28fb15e0ac9e442a743a011fbbb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867cf32e9ec2773e322440cf7db7bc9c') in 0.025394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.884 seconds
+Refreshing native plugins compatible for Editor in 4.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.432 seconds
+Domain Reload Profiling: 2311ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (636ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (331ms)
+				TypeCache.ScanAssembly (318ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1432ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 4.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5822 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (356.8 KB). Loaded Objects now: 6516.
+Memory consumption went from 208.5 MB to 208.1 MB.
+Total: 4.316700 ms (FindLiveObjects: 0.838600 ms CreateObjectMapping: 0.207900 ms MarkObjects: 3.144000 ms  DeleteObjects: 0.124800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 811.304868 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/Iconofsin_Toy_Animator.controller
+  artifactKey: Guid(0c28fb15e0ac9e442a743a011fbbb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-icon-of-sin-toy/IconOfSin_Toy/Animations/Iconofsin_Toy_Animator.controller using Guid(0c28fb15e0ac9e442a743a011fbbb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6909fbcd8291a0cbe955da89f61df6db') in 0.025587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.913 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.488 seconds
+Domain Reload Profiling: 2394ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (650ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (334ms)
+				TypeCache.ScanAssembly (320ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1489ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (394ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 5.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5822 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (356.8 KB). Loaded Objects now: 6521.
+Memory consumption went from 208.5 MB to 208.1 MB.
+Total: 4.804900 ms (FindLiveObjects: 1.172300 ms CreateObjectMapping: 0.246000 ms MarkObjects: 3.234700 ms  DeleteObjects: 0.150800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

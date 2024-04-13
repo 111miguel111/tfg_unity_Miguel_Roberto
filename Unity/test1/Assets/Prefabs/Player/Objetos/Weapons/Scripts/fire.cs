@@ -29,8 +29,11 @@ public class fire : MonoBehaviour
     void Update()
     {
         playerController myPlayer = transform.root.GetComponent<playerController>();//Obtenemos el controlador del jugador
+        Animator animator = myPlayer.GetComponentInChildren<Animator>();
 
-        if (Input.GetAxisRaw("Fire1") > 0 && nextBullet < Time.time)
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+        if (Input.GetAxisRaw("Fire1") > 0 && nextBullet < Time.time && !(stateInfo.IsTag("NoShooting")))
         {//Miramos que se pulsa el boton de disparar y si el tiempo entre proyectiles es el adecuado continuamos
             nextBullet = Time.time + timeBetweenBullets;//Acctualizamos el tiempo para el siguiente proyectil
             Vector3 rot;//Vector para la direccion en la que se crea mirando el proyectil
@@ -46,7 +49,7 @@ public class fire : MonoBehaviour
 
             AudioSource.PlayClipAtPoint(shootSound, transform.position);//Hacemos sonar el sonido de disparo en el mundo
         }
-        if (Input.GetAxisRaw("Fire1") < 1)//Si dejas de pulsar el boton de dispara reseteamos la variable del siguiente proyectil
+        if (Input.GetAxisRaw("Fire1") < 1 && nextBullet < Time.time)//Si dejas de pulsar el boton de dispara reseteamos la variable del siguiente proyectil
         {
             nextBullet = Time.time + startBullet;//Ponemos el proximo proyectil igual al primer proyectil
         }
