@@ -24,7 +24,8 @@ public class WeaponPickUp : MonoBehaviour
         if (other.tag == "Player")
         {
             other.gameObject.GetComponent<playerInventoryManager>().activateWeapon(whichWeapon);
-            Destroy(transform.root.gameObject);
+            //Destroy(transform.root.gameObject);
+            gameObject.SetActive(false);
             AudioSource.PlayClipAtPoint(pickUpClip, transform.position);
         }
     }

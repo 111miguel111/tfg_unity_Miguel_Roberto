@@ -23,7 +23,8 @@ public class HealthPickUp : MonoBehaviour
         if (other.tag == "Player")
         {
             other.GetComponent<playerHealth>().addHealth(healthAmount);
-            Destroy(transform.root.gameObject);
+            //Destroy(transform.root.gameObject);
+            gameObject.SetActive(false);
             AudioSource.PlayClipAtPoint(healthPickUpSound, transform.position, 1f);
         }
     }
