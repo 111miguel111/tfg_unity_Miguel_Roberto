@@ -437,6 +437,8 @@
 "Assets/Prefabs/Game/LevelManagement/RespawnPointSetter.cs"
 "Assets/Prefabs/NPCs/Scripts/EnemyDamage.cs"
 "Assets/Prefabs/NPCs/Scripts/EnemyHealth.cs"
+"Assets/Prefabs/NPCs/Scripts/ImpController.cs"
+"Assets/Prefabs/NPCs/Scripts/shootEnemyProyectile.cs"
 "Assets/Prefabs/NPCs/Scripts/ZombieController.cs"
 "Assets/Prefabs/Objects/Camera/Scripts/BasicCameraTracker.cs"
 "Assets/Prefabs/Player/Movement_Asset/Code/AbilityModules/AbilityModule.cs"

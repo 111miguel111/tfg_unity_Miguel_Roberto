@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 2692061319329382478}
   - component: {fileID: 5799389753297133184}
   - component: {fileID: 4563305531050198453}
-  m_Layer: 9
+  m_Layer: 7
   m_Name: ZombieTier1_SkelMesh1@T-Pose
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ Animator:
   m_GameObject: {fileID: 1711125648491420071}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c4de6c49bde200243b3ecc034f5a1102, type: 3}
-  m_Controller: {fileID: 9100000, guid: 724ddbf7c4a1d9240ba97763ed0545cf, type: 2}
+  m_Controller: {fileID: 9100000, guid: dfcf794bea732cf40a36c2d6b4f5f73f, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -328,13 +328,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyMaxHealth: 100
   currentHealth: 0
-  damageModifier: 0
-  damageParticles: {fileID: 0}
-  deathParticles: {fileID: 0}
+  damageModifier: 1
+  damageParticles: {fileID: 7458342281794802671, guid: dc8cb69ca0ea1e54cbdf0ef31fd25e66, type: 3}
+  deathParticles: {fileID: 5045138405618836422, guid: 82054722e13283a4f9cd5245cc3aa1ba, type: 3}
   drop: {fileID: 0}
   drops: 0
-  deathSounds: []
-  damageSounds: []
+  deathSounds:
+  - {fileID: 8300000, guid: 44b5c3a85493d1340ac80990ddc7467b, type: 3}
+  - {fileID: 8300000, guid: 867ac36e3ef450845af97b91fbe8dcd1, type: 3}
+  - {fileID: 8300000, guid: 279c4962903a9084bbe8e34aeba636b2, type: 3}
+  - {fileID: 8300000, guid: f7904e03977689344aeef2501e8257d3, type: 3}
+  - {fileID: 8300000, guid: 33572fb2df0d8d94db9938148a28aa71, type: 3}
+  - {fileID: 8300000, guid: ba1a19e03361bf44ab6d01767f6a81c0, type: 3}
+  - {fileID: 8300000, guid: 867b5f056c1e5434f94f64c678e7c243, type: 3}
+  - {fileID: 8300000, guid: 2edd4c0bcbba4fc40ab2db592cdfac63, type: 3}
+  - {fileID: 8300000, guid: 3ba547930b1452b44ad24a95d97c0c22, type: 3}
+  - {fileID: 8300000, guid: a51e964fc869181408ce18529e437c62, type: 3}
+  - {fileID: 8300000, guid: 339e876f2b89c9e44b2d3a196b5d9905, type: 3}
+  - {fileID: 8300000, guid: b93f1eae5c9001442ba331468b8a6b76, type: 3}
+  - {fileID: 8300000, guid: ce40f08f3b934aa45adc081c17eacccd, type: 3}
+  - {fileID: 8300000, guid: 38f1c7f11c98ac34f964291f574a17ac, type: 3}
+  - {fileID: 8300000, guid: b46339b057fe4964996402f20690437b, type: 3}
+  - {fileID: 8300000, guid: fc26f83a1bf4e31469939f29b7d36417, type: 3}
+  - {fileID: 8300000, guid: 2137e676bcfe7cc43a85a604a6e88719, type: 3}
+  - {fileID: 8300000, guid: a71c4e40a7c0e1e4092d0ffd7210740e, type: 3}
+  - {fileID: 8300000, guid: a4383eea711dc5642a02b7d73aff6cb9, type: 3}
+  - {fileID: 8300000, guid: 169243b0d55230643a02ab7a507695c1, type: 3}
+  - {fileID: 8300000, guid: 541a0607619a63f4c951fed93bd84b01, type: 3}
+  damageSounds:
+  - {fileID: 8300000, guid: c6b6e18a11df1b346a336e802a010a2c, type: 3}
+  - {fileID: 8300000, guid: dc68fb9162ec1a04686b0388b10ca114, type: 3}
+  - {fileID: 8300000, guid: 8b4cd1484aa529f4caf7cb58afb73253, type: 3}
+  - {fileID: 8300000, guid: 9d471338628ed9740a32f95410cd99f0, type: 3}
+  - {fileID: 8300000, guid: 7e16e651ae0416d43bb388975acfc3b7, type: 3}
+  - {fileID: 8300000, guid: 3a3626e55aee79e4ea20a670ccaeb37b, type: 3}
+  - {fileID: 8300000, guid: cc2445c9918545a4bac154352bfb7a1c, type: 3}
+  - {fileID: 8300000, guid: 7af417a1400424b448f02529a6e28970, type: 3}
 --- !u!1 &1828857394649654960
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,8 +587,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FlipModel: {fileID: 1711125648491420071}
-  IdleSounds: []
-  IdleSoundTime: 0
+  IdleSounds:
+  - {fileID: 8300000, guid: ed8769138eb2fe94db5a043c20cfb303, type: 3}
+  - {fileID: 8300000, guid: 7b5fba925e986b64c9029642d2f54401, type: 3}
+  - {fileID: 8300000, guid: 1c88c6204f385094db0ba180a755321e, type: 3}
+  - {fileID: 8300000, guid: c751ac2ed40ff6b4d9c3b0911f95f8ca, type: 3}
+  - {fileID: 8300000, guid: 418e720561ecd6946b8f0c15465f3a19, type: 3}
+  - {fileID: 8300000, guid: 9823b65c5605b9c4d849f8351ab3edb1, type: 3}
+  - {fileID: 8300000, guid: c09e789b1e9f5b649a1c864e77c35dd0, type: 3}
+  - {fileID: 8300000, guid: 69409459c2d7ca0468238f642c7cf2b8, type: 3}
+  - {fileID: 8300000, guid: 8b2f36e378786c049beb79c18e4ba91a, type: 3}
+  - {fileID: 8300000, guid: 6bbe2e93ffb33b34eb3fc2218954a8c7, type: 3}
+  - {fileID: 8300000, guid: e07d032eef8d13645aee46649f3ac6bd, type: 3}
+  - {fileID: 8300000, guid: 9a297a5f3843be6428af62a6a983d27c, type: 3}
+  - {fileID: 8300000, guid: 222aa215f26003b41afaf8f0a5db19c5, type: 3}
+  - {fileID: 8300000, guid: 42e73db8439d1d04b8b4b4bd04d4c2f7, type: 3}
+  - {fileID: 8300000, guid: 7fd6237de8d536146838f5fef04d919f, type: 3}
+  - {fileID: 8300000, guid: b834e2e6e80f6184cb803aa47ce9ae5a, type: 3}
+  - {fileID: 8300000, guid: a0b8b84292831ab4ebcd235ad884016c, type: 3}
+  - {fileID: 8300000, guid: c212f3fd691682d448bf82befdf20dc6, type: 3}
+  - {fileID: 8300000, guid: f439e8c7ae884e84395042968057ce50, type: 3}
+  - {fileID: 8300000, guid: a17c86774175ce34fa450917cd5b58e1, type: 3}
+  - {fileID: 8300000, guid: 7059288673de44642867617e1f243a61, type: 3}
+  - {fileID: 8300000, guid: 86db2ba2c58c49448ab65882034e191e, type: 3}
+  - {fileID: 8300000, guid: ea64cdacc44f7b6438f8d41949f54db6, type: 3}
+  - {fileID: 8300000, guid: 05df304b79eb02a40810215ff6b4123f, type: 3}
+  - {fileID: 8300000, guid: 18205d1b656da3744ad3ecb97d1ce676, type: 3}
+  - {fileID: 8300000, guid: be9f752461ae32841b6daf80883b0c84, type: 3}
+  - {fileID: 8300000, guid: 92f0a20c76ea2b94793274130abab7a6, type: 3}
+  - {fileID: 8300000, guid: d2d143c5fb2d16e4c8e1e9c025b90d3e, type: 3}
+  IdleSoundTime: 0.5
   detectionTime: 0
   runSpeed: 2
   walkSpeed: 1
@@ -1130,6 +1187,7 @@ MonoBehaviour:
   damage: 5
   damageRate: 1
   pushBackForce: 10
+  horizontalStartingLift: 15
 --- !u!1 &6292242853235065866
 GameObject:
   m_ObjectHideFlags: 0

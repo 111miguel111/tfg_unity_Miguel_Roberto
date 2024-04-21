@@ -29,6 +29,7 @@ public class EnemyHealth : MonoBehaviour{
     }
 
     public void addDamage(float damage){
+        Debug.Log("Soy un zombi dolorido: ");
         damage = damage * damageModifier;
         if(damage > 0f){
             currentHealth -= damage;
@@ -62,7 +63,7 @@ public class EnemyHealth : MonoBehaviour{
         if (drops){
             Instantiate(drop, transform.position, drop.transform.rotation);
         }
-        Destroy(gameObject.transform.root.gameObject);
-        
+        //Destroy(gameObject.transform.root.gameObject);
+        gameObject.SetActive(false);
     }
 }

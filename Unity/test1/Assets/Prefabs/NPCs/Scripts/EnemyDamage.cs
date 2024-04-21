@@ -66,7 +66,6 @@ public class EnemyDamage : MonoBehaviour
     }
     void pushBack(Transform pushedObject)
     {
-        print("ayuda");
 
         float verticalStartingPush = ControlledCapsuleCollider.instance.IsGrounded() ? horizontalStartingLift : 0;
 

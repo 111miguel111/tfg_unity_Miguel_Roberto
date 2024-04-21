@@ -33,6 +33,7 @@ public class shootFireball : MonoBehaviour{
             {
                 enemyHealth.addDamage(damage);
             }
+            
             Destroy(gameObject);
 
         }
