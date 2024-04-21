@@ -947,7 +947,7 @@ GameObject:
   - component: {fileID: 6182009075219862872}
   - component: {fileID: 7307253809882836494}
   - component: {fileID: 1537461826468684208}
-  - component: {fileID: 8031535925445522386}
+  - component: {fileID: 4936515701919471963}
   m_Layer: 0
   m_Name: ZombieDetection
   m_TagString: Untagged
@@ -1114,7 +1114,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8031535925445522386
+--- !u!114 &4936515701919471963
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1123,10 +1123,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 5696085063321538564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee80b9b049328c04fba2edfc70927025, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f77b698cfe8dc0469807892f85fccee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   FlipModel: {fileID: 4835044692338583716}
+  Proyectil: {fileID: 2392603395336577945, guid: a9b6bd0f289ca1446a79615f93573b0b, type: 3}
+  timeBetweenBullets: 1
+  nextBullet: 1
+  startBullet: 0.1
+  InRange: 0
   IdleSounds:
   - {fileID: 8300000, guid: 10f1c664a72058045bb593a0b86004e2, type: 3}
   - {fileID: 8300000, guid: 9622398f72a51344d9d0d8fd4bba3039, type: 3}
@@ -1142,10 +1147,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e381fee5312f827448207fb45831ee7d, type: 3}
   - {fileID: 8300000, guid: 227d4eff512d4a047840d188394b1ada, type: 3}
   - {fileID: 8300000, guid: 1710b389e2fe39449832a0bc12a91eb4, type: 3}
-  IdleSoundTime: 0.5
+  IdleSoundTime: 1
   detectionTime: 0
-  runSpeed: 2
-  walkSpeed: 1
+  runSpeed: 4
+  walkSpeed: 2
   facingRight: 1
 --- !u!1 &5817334605142630153
 GameObject:

@@ -3,7 +3,12 @@ guid: 248e8dc4994ef4042bab124cc3aada30
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: archvile_toyMat
+    second: {fileID: 2100000, guid: 02a0efd277a6e7c4eaa4e14f56aecba0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
