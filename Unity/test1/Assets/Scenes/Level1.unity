@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4482476, g: 0.49827403, b: 0.575583, a: 1}
+  m_IndirectSpecularColor: {r: 0.44824737, g: 0.49827373, b: 0.5755824, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4579,6 +4579,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1605169623}
     m_Modifications:
+    - target: {fileID: 1616536279991096237, guid: 42b89729a55ff274f8045e41e55df727, type: 3}
+      propertyPath: m_Size.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1616536279991096237, guid: 42b89729a55ff274f8045e41e55df727, type: 3}
+      propertyPath: m_Size.z
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669520232217499166, guid: 42b89729a55ff274f8045e41e55df727, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669520232217499166, guid: 42b89729a55ff274f8045e41e55df727, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669520232217499166, guid: 42b89729a55ff274f8045e41e55df727, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 100.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669520232217499166, guid: 42b89729a55ff274f8045e41e55df727, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1669520232217499166, guid: 42b89729a55ff274f8045e41e55df727, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3314133318716062697, guid: 42b89729a55ff274f8045e41e55df727, type: 3}
       propertyPath: m_Name
       value: GameController
@@ -5154,8 +5182,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4234aa66a54344143a085dd97b5d8194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nmAgent: {fileID: 0}
-  player: {fileID: 72315449}
 --- !u!114 &1184877580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5168,12 +5194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7118d6244910d3047b0c3d948788acf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Method: 2
-  m_Curve:
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!195 &1184877581
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10012,7 +10032,7 @@ PrefabInstance:
       objectReference: {fileID: 72315449}
     - target: {fileID: 3386872878629637516, guid: bfc0b041658523f498b061fe2d497b39, type: 3}
       propertyPath: m_ZDistance
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3386872878629637516, guid: bfc0b041658523f498b061fe2d497b39, type: 3}
       propertyPath: m_InterpolationFactor

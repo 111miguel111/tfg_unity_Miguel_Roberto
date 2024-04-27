@@ -37,6 +37,7 @@ public class fire : MonoBehaviour
         {//Miramos que se pulsa el boton de disparar y si el tiempo entre proyectiles es el adecuado continuamos
             nextBullet = Time.time + timeBetweenBullets;//Acctualizamos el tiempo para el siguiente proyectil
             Vector3 rot;//Vector para la direccion en la que se crea mirando el proyectil
+            animator.SetTrigger("Shooting");
             if (myPlayer.getFacing() == -1f)
             {//Con el playerController comprobamos en que direccion estamos mirando 1==DERECHA -1==IZQUIERDA
                 rot = new Vector3(0, -90, 0);

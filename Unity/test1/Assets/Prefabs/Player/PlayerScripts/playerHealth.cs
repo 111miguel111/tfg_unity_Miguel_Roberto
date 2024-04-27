@@ -57,6 +57,9 @@ public class playerHealth : MonoBehaviour
 
     public void addDamage(float damage)
     {
+        playerController myPlayer = transform.root.GetComponent<playerController>();//Obtenemos el controlador del jugador
+        Animator animator = myPlayer.GetComponentInChildren<Animator>();
+        animator.SetTrigger("Damage");
         currentHealth -= damage;
         playerHealthSlider.value = currentHealth;
         damaged = true;
