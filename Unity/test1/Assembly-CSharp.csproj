@@ -66,6 +66,7 @@
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\EntityControllers\GroundedCharacterController.cs" />
     <Compile Include="Assets\Prefabs\Game\DemoObjects\CurvedZipline.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\Input\UIButtonInputOverride.cs" />
+    <Compile Include="Assets\Prefabs\NPCs\Scripts\EnemyAnim.cs" />
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Prefabs\Player\Objetos\Weapons\Scripts\shootSpread.cs" />
     <Compile Include="Assets\Prefabs\FX\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_New.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Prefabs\FX\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Prefabs\NPCs\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Prefabs\NPCs\Scripts\ZombieController.cs" />
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -142,6 +144,7 @@
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\Sprites\SpriteAnimator.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\DashModule.cs" />
     <Compile Include="Assets\Prefabs\Player\PlayerScripts\playerController.cs" />
+    <Compile Include="Assets\Prefabs\NPCs\Scripts\AgentLinkMover.cs" />
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\EdgeClimbModule.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\EntityControllers\CharacterControllerBase.cs" />
@@ -167,6 +170,7 @@
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\CrouchingModule.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\GroundedControllerAbilityModule.cs" />
     <Compile Include="Assets\Shaders_Render\OToon- URP Toon Shading\Demo(Can be delete)\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Prefabs\NPCs\Scripts\AttackRangeDetection.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\DoubleJumpModule.cs" />
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Prefabs\FX\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
