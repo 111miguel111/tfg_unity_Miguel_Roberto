@@ -20,7 +20,7 @@ public class EnemyHealth : MonoBehaviour{
     // Start is called before the first frame update
     void Start(){
         currentHealth = enemyMaxHealth;
-        enemyAS = GetComponent<AudioSource>();
+        enemyAS = GetComponentInParent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -64,6 +64,8 @@ public class EnemyHealth : MonoBehaviour{
             Instantiate(drop, transform.position, drop.transform.rotation);
         }
         //Destroy(gameObject.transform.root.gameObject);
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
+        GameObject parentObject = gameObject.transform.parent.gameObject;
+        parentObject.SetActive(false);
     }
 }

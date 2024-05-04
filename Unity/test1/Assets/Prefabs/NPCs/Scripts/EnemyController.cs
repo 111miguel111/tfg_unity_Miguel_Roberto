@@ -14,7 +14,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nmAgent = GetComponent<NavMeshAgent>();
+        nmAgent = GetComponentInParent<NavMeshAgent>();
     }
 
     // Update is called once per frame
