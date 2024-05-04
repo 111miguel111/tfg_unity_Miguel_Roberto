@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16332 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16197 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Program Files\Unity Hub\2022.3.4f1\Editor\Unity.exe
+C:\Program Files\Unity 2022.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-F:/GitHub/Unity/test1
+E:/WORKSPACE/git/tfg_unity_Miguel_Roberto/Unity/test1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52898
-Successfully changed project path to: F:/GitHub/Unity/test1
-F:/GitHub/Unity/test1
+49920
+Successfully changed project path to: E:/WORKSPACE/git/tfg_unity_Miguel_Roberto/Unity/test1
+E:/WORKSPACE/git/tfg_unity_Miguel_Roberto/Unity/test1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,69 +49,64 @@ F:/GitHub/Unity/test1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20660] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 3551105246 [EditorId] 3551105246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-30RO5C0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7000] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 561127507 [EditorId] 561127507 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8M6VI5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20660] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 3551105246 [EditorId] 3551105246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-30RO5C0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7000] Host "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 561127507 [EditorId] 561127507 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8M6VI5E) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 10.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 9.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
-[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/GitHub/Unity/test1/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/WORKSPACE/git/tfg_unity_Miguel_Roberto/Unity/test1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 5500 XT (ID=0x7340)
-    Vendor:   ATI
-    VRAM:     8151 MB
-    Driver:   31.0.23013.1023
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3742
 Initialize mono
-Mono path[0] = 'D:/Program Files/Unity Hub/2022.3.4f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity Hub/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Program Files/Unity Hub/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/Unity Hub/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/Program Files/Unity Hub/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Program Files/Unity Hub/2022.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006004 seconds.
-- Loaded All Assemblies, in  0.380 seconds
-Native extension for UWP target not found
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005636 seconds.
+- Loaded All Assemblies, in  0.357 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 322 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.723 seconds
-Domain Reload Profiling: 1103ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  0.315 seconds
+Domain Reload Profiling: 670ms
+	BeginReloadAssembly (83ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (173ms)
-		LoadAssemblies (90ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (82ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (155ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (134ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (723ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (315ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (655ms)
+		SetupLoadedEditorAssemblies (246ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (463ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,60 +114,153 @@ Domain Reload Profiling: 1103ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\GitHub\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\GitHub\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.075 seconds
-Refreshing native plugins compatible for Editor in 4.21 ms, found 4 plugins.
-Native extension for UWP target not found
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.964 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.903 seconds
-Domain Reload Profiling: 1976ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.856 seconds
+Domain Reload Profiling: 1816ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (814ms)
-		LoadAssemblies (381ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (720ms)
+		LoadAssemblies (349ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (511ms)
-			TypeCache.Refresh (454ms)
-				TypeCache.ScanAssembly (435ms)
-			ScanForSourceGeneratedMonoScriptInfo (40ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (904ms)
+		AnalyzeDomain (434ms)
+			TypeCache.Refresh (383ms)
+				TypeCache.ScanAssembly (369ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (858ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (656ms)
+		SetupLoadedEditorAssemblies (646ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (425ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (428ms)
 			ProcessInitializeOnLoadMethodAttributes (95ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6056 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (390.7 KB). Loaded Objects now: 6533.
-Memory consumption went from 249.9 MB to 249.5 MB.
-Total: 5.852000 ms (FindLiveObjects: 0.876400 ms CreateObjectMapping: 0.295400 ms MarkObjects: 4.296000 ms  DeleteObjects: 0.382300 ms)
+Unloading 86 unused Assets / (391.6 KB). Loaded Objects now: 6530.
+Memory consumption went from 244.9 MB to 244.5 MB.
+Total: 3.525900 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.199000 ms MarkObjects: 2.795800 ms  DeleteObjects: 0.209200 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87894.014683 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/HellKnight_Toy/Animations/HellKnightAnimator.controller
+  artifactKey: Guid(009d4e1487176c9448b744a3175ea7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/HellKnight_Toy/Animations/HellKnightAnimator.controller using Guid(009d4e1487176c9448b744a3175ea7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a22c0d2866fe174d4e06de8ddfaa8a') in 0.013182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (328.7 KB). Loaded Objects now: 6531.
+Memory consumption went from 117.6 MB to 117.2 MB.
+Total: 3.991900 ms (FindLiveObjects: 0.848800 ms CreateObjectMapping: 0.214900 ms MarkObjects: 2.857200 ms  DeleteObjects: 0.070000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.968 seconds
+Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.384 seconds
+Domain Reload Profiling: 2348ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (682ms)
+		LoadAssemblies (407ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (353ms)
+				TypeCache.ScanAssembly (338ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1385ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 3.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5869 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (356.6 KB). Loaded Objects now: 6537.
+Memory consumption went from 208.7 MB to 208.3 MB.
+Total: 4.468900 ms (FindLiveObjects: 0.860800 ms CreateObjectMapping: 0.232600 ms MarkObjects: 3.188600 ms  DeleteObjects: 0.184600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -187,284 +275,190 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6268.376188 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/HellKnight_Toy/hellknight_toy_LOD0.fbx
-  artifactKey: Guid(841d66fa93cc3c049aa3ae339d20027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/HellKnight_Toy/hellknight_toy_LOD0.fbx using Guid(841d66fa93cc3c049aa3ae339d20027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24403d9e06ab1f3d37ca45012d81b8f7') in 0.019771 seconds
+  Time since last request: 430.201928 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-archvile/source/archvile_toy_LOD0/archvile_toy_LOD0.obj
+  artifactKey: Guid(248e8dc4994ef4042bab124cc3aada30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-archvile/source/archvile_toy_LOD0/archvile_toy_LOD0.obj using Guid(248e8dc4994ef4042bab124cc3aada30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061e7d29e78594bcdbac284238aedd79') in 0.061806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Prefabs/Player/Objetos/Other/Armor_Helmet_PickUp/Armor_Helmet.obj
+  artifactKey: Guid(c49ef78c109c1fa439c823ba1e7f06ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Objetos/Other/Armor_Helmet_PickUp/Armor_Helmet.obj using Guid(c49ef78c109c1fa439c823ba1e7f06ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd203423f690aad4252f98e7ae70ece5') in 0.001591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Player/Objetos/Weapons/0_AssaultRifle/AssaultRifle_Weapon.prefab
+  artifactKey: Guid(48a65ac3f5ac7c3468929b6c89cc4258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Objetos/Weapons/0_AssaultRifle/AssaultRifle_Weapon.prefab using Guid(48a65ac3f5ac7c3468929b6c89cc4258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f62e2e38c5b185d5d3548408a5ef790') in 0.013155 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 60
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/HellKnight_Toy
-  artifactKey: Guid(a4d976a24fcc20846a32d36082fcdaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/HellKnight_Toy using Guid(a4d976a24fcc20846a32d36082fcdaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9e7a0201a128fa7b5eb5a2883f9cde') in 0.000880 seconds
+  Time since last request: 2.306349 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX2 Prefabs/Debris Hits/CFX2_RockHit.prefab
+  artifactKey: Guid(a97415c6b57076f41a6621a7b51d63a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX2 Prefabs/Debris Hits/CFX2_RockHit.prefab using Guid(a97415c6b57076f41a6621a7b51d63a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e385ab7a02132e3fe4b460c7cfb6df58') in 0.002652 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time since last request: 30.096113 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/textures/hellknight_toy.png
-  artifactKey: Guid(d1a1485b65569b04abcb33bda4943b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-hellknight-toy/textures/hellknight_toy.png using Guid(d1a1485b65569b04abcb33bda4943b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0f070f8f09de2c87a13be3e65617c4') in 0.002851 seconds
+  Time since last request: 0.020095 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX2 Prefabs/Electric/CFX2_SparksHit_B Sphere.prefab
+  artifactKey: Guid(4961a16ba01e09547be3e1c9d16d5ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX2 Prefabs/Electric/CFX2_SparksHit_B Sphere.prefab using Guid(4961a16ba01e09547be3e1c9d16d5ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b286877692ff6fa3ac95f2166ec806fc') in 0.001741 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/hologram_lines.png
-  artifactKey: Guid(1a41c3e209ba51c4fbb25b4d4613c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/hologram_lines.png using Guid(1a41c3e209ba51c4fbb25b4d4613c183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12a31d7a34bb195e0498d6740ac9ba9') in 0.002673 seconds
+  Time since last request: 0.021239 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Fire/CFX3_Fire_Shield.prefab
+  artifactKey: Guid(b0bc1b6b391734647b9bb142bafc0819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Fire/CFX3_Fire_Shield.prefab using Guid(b0bc1b6b391734647b9bb142bafc0819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0809adc0c0a27190ba1d9956413dd2') in 0.002070 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 25
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/hexagon_grid.png
-  artifactKey: Guid(e61a550a7ddc3304fbfe0a01919efe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/hexagon_grid.png using Guid(e61a550a7ddc3304fbfe0a01919efe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9659bae3ba4b78bfff094b4ee428c784') in 0.001855 seconds
+  Time since last request: 0.022169 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Electric/CFX3_Hit_Electric_A_Ground.prefab
+  artifactKey: Guid(1ca16f2a31fb6a548ad8954bed1d321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Electric/CFX3_Hit_Electric_A_Ground.prefab using Guid(1ca16f2a31fb6a548ad8954bed1d321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54304d1ec5b2eb7855db3e7ef69a9a9f') in 0.001899 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time since last request: 1.088196 seconds.
-  path: Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/grass_normal.tga
-  artifactKey: Guid(1c3759435f9363447abb1969a2271472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FX/Ultimate 10 Plus Shaders/Materials/Textures/grass_normal.tga using Guid(1c3759435f9363447abb1969a2271472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd217b966c682f6cc5ad5b5ca389cf05e') in 0.001475 seconds
+  Time since last request: 0.020664 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Electric/CFX3_Hit_Electric_C_Air.prefab
+  artifactKey: Guid(e243632bb3aff9549abdcfcc2ef0c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Electric/CFX3_Hit_Electric_C_Air.prefab using Guid(e243632bb3aff9549abdcfcc2ef0c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61ae7d57255591246de06f2d78846fe') in 0.001975 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time since last request: 0.028767 seconds.
-  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
-  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0bcce73f10116b136c349d55f8bfd5') in 0.001189 seconds
+  Time since last request: 0.020074 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Light/CFX3_Hit_Light_C_Air.prefab
+  artifactKey: Guid(757df604761b8ef42831192c70ee1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Light/CFX3_Hit_Light_C_Air.prefab using Guid(757df604761b8ef42831192c70ee1099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87044c096dc75ed813f082396146b7d') in 0.001895 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.835797 seconds.
-  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
-  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462ed7e1ecfa5f707c1da2625aaef769') in 0.001194 seconds
+  Time since last request: 0.019769 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Misc/CFX3_Hit_Misc_B_Gravity.prefab
+  artifactKey: Guid(7d6835d9db898fa4bbfda5d62c496786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Misc/CFX3_Hit_Misc_B_Gravity.prefab using Guid(7d6835d9db898fa4bbfda5d62c496786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624772bdd25ce560b5439bb9a182d8a0') in 0.002016 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
-  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders_Render/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f7ef617edcbda23f1c4b1ae5c42887') in 0.001647 seconds
+  Time since last request: 0.020385 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Misc/CFX3_Hit_Misc_D.prefab
+  artifactKey: Guid(979632a27455af442bd2d8f36eb0ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Misc/CFX3_Hit_Misc_D.prefab using Guid(979632a27455af442bd2d8f36eb0ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf132c7b939428b1e3b7c8629d34f0c2') in 0.001613 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-gargoyle-toy/textures/gargoyle_toy_n.png
-  artifactKey: Guid(b525545cd9f83f147910be98deb6bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-gargoyle-toy/textures/gargoyle_toy_n.png using Guid(b525545cd9f83f147910be98deb6bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6b4794b167830abe39eecfb048ce73') in 0.002621 seconds
+  Time since last request: 0.213453 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Misc/CFX3_Hit_SmokePuff.prefab
+  artifactKey: Guid(83cd9cc9f9c88824ba18dc59b05ae328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/CFX3 Prefabs/Misc/CFX3_Hit_SmokePuff.prefab using Guid(83cd9cc9f9c88824ba18dc59b05ae328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6c72ebaa3c87282ce9d54925f90fcc') in 0.001966 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003419 seconds.
-  path: Assets/Shaders_Render/TextMesh Pro/Resources/Fonts & Materials/FontSource/EternalAncient-ZVjEB.ttf
-  artifactKey: Guid(4e5ec25121b11924f8eb0a4622e5632a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders_Render/TextMesh Pro/Resources/Fonts & Materials/FontSource/EternalAncient-ZVjEB.ttf using Guid(4e5ec25121b11924f8eb0a4622e5632a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f070149d31aea15011eaf42d99788916') in 0.009942 seconds
+  Time since last request: 0.458012 seconds.
+  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Hit PLAIN (Cross).prefab
+  artifactKey: Guid(b85d21f3b8fed714bacf0c4fd50fa512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Sword Trails/Plain/CFXR4 Sword Hit PLAIN (Cross).prefab using Guid(b85d21f3b8fed714bacf0c4fd50fa512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4293f678f5b58128e1386cbee9e0949') in 0.003528 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/FX/Ultimate 10 Plus Shaders/arial.ttf
-  artifactKey: Guid(19ecd568395677d498b8dd3cbfc47142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FX/Ultimate 10 Plus Shaders/arial.ttf using Guid(19ecd568395677d498b8dd3cbfc47142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1706c03cb3ee3b071bbd94b9410e5f') in 0.003174 seconds
+  Time since last request: 19.527704 seconds.
+  path: Assets/Prefabs/Player/FX/DeathPlayer.prefab
+  artifactKey: Guid(82054722e13283a4f9cd5245cc3aa1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/FX/DeathPlayer.prefab using Guid(82054722e13283a4f9cd5245cc3aa1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe228f21666e7b3b0482d1dcf8cf893') in 0.002330 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.020881 seconds.
-  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Archvile Reticle/demon_reticle_archvile_center_glow.png
-  artifactKey: Guid(08bf0d7427daf9f45bae90b1cd79d115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Archvile Reticle/demon_reticle_archvile_center_glow.png using Guid(08bf0d7427daf9f45bae90b1cd79d115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161857082eea98fba379049752df0ae2') in 0.001691 seconds
+  Time since last request: 0.116833 seconds.
+  path: Assets/Prefabs/NPCs/doom-eternal-tyrant-toy/Tyrant_Toy/Animations/standing death backward 01.fbx
+  artifactKey: Guid(b544130a4855c2b43ae90810b6182c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPCs/doom-eternal-tyrant-toy/Tyrant_Toy/Animations/standing death backward 01.fbx using Guid(b544130a4855c2b43ae90810b6182c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284a8cb6f11f189721693c8e7822a9d2') in 0.003818 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 54
 ========================================================================
-Received Import Request.
-  Time since last request: 0.001594 seconds.
-  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Archvile Reticle/demon_reticle_archvile_outerrim_glow.png
-  artifactKey: Guid(657e749692562c24fafaa735d9c49efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Archvile Reticle/demon_reticle_archvile_outerrim_glow.png using Guid(657e749692562c24fafaa735d9c49efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84250f642cbbebeafdffc58a178f0805') in 0.002097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Archvile Reticle/demon_reticle_archvile_teleport_glow.png
-  artifactKey: Guid(142d29e96451c4d4099d6c1f652c336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Archvile Reticle/demon_reticle_archvile_teleport_glow.png using Guid(142d29e96451c4d4099d6c1f652c336a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ef6965ac1d01c1514e89e5837d2133') in 0.001820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Archvile Reticle/demon_reticle_archvile_teleport_stroke.png
-  artifactKey: Guid(249059adf439d2d4e9f4e10aa8fa2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Archvile Reticle/demon_reticle_archvile_teleport_stroke.png using Guid(249059adf439d2d4e9f4e10aa8fa2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc0742c343ff587a0339b290d390809') in 0.001967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Mancubus Reticle/demon_reticle_mancubus_center_glow.png
-  artifactKey: Guid(7cf8865935811ca4da1839b921fcd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Mancubus Reticle/demon_reticle_mancubus_center_glow.png using Guid(7cf8865935811ca4da1839b921fcd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9c28143a273d5604ac4d814a225592') in 0.003141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.017173 seconds.
-  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/body_01_SPEC.tga
-  artifactKey: Guid(7ae1142e9b3a72048960dd9561e0e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Plugins/unity-chan!/Unity-chan! Model/Art/Texture/body_01_SPEC.tga using Guid(7ae1142e9b3a72048960dd9561e0e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9968cbfc818431aff585d01efd338759') in 0.001910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.001103 seconds.
-  path: Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Scenes/5 Stylized Character UnityChan/Textures/body_RampTex.png
-  artifactKey: Guid(e2407df28cf36d440afe93d2a43517f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders_Render/OToon- URP Toon Shading/Demo(Can be delete)/Scenes/5 Stylized Character UnityChan/Textures/body_RampTex.png using Guid(e2407df28cf36d440afe93d2a43517f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a000fad49d2170d7f77ac2af683e488') in 0.001746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/FX/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures/Brains_Gloss.png
-  artifactKey: Guid(19b640978e503864fb00091c821c4935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FX/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures/Brains_Gloss.png using Guid(19b640978e503864fb00091c821c4935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340d939ebc5660063205245f1978d4c2') in 0.002894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Images/Buttons/botton.png
-  artifactKey: Guid(1a549f0be59e98c48a2c3a87d6fd9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/Buttons/botton.png using Guid(1a549f0be59e98c48a2c3a87d6fd9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d09ee41001b65ee804900aff45a5d2') in 0.008129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/FX/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures/Brains_Displacement.png
-  artifactKey: Guid(16c53fef92528674fbf2fab05e0bf9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FX/BloodDecalsAndEffects/BloodGushFX/brainsAndBlood/Textures/Brains_Displacement.png using Guid(16c53fef92528674fbf2fab05e0bf9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b0866e4a11194c827e12d03cf1cfc5') in 0.002535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.566233 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-mancubus-toy/textures/flatspec_125.png
-  artifactKey: Guid(cd1c3b51fb9230d48b89197ffa1f221d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-mancubus-toy/textures/flatspec_125.png using Guid(cd1c3b51fb9230d48b89197ffa1f221d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8723791d750d1fdc2914c99a1a4a81') in 0.002461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-zombie-toy/textures/flatspec_125.png
-  artifactKey: Guid(16b0ac3fa24930045bc43368b6722931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-zombie-toy/textures/flatspec_125.png using Guid(16b0ac3fa24930045bc43368b6722931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d74d2693db2405b16a9b95937100a99') in 0.003037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-gargoyle-toy/textures/flatspec_125.png
-  artifactKey: Guid(8061a7d5fb29737458af0f562fe541f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-gargoyle-toy/textures/flatspec_125.png using Guid(8061a7d5fb29737458af0f562fe541f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbb64a4d823242d218d7e2ec298e17b') in 0.002891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-dreadknight-toy/textures/flatspec_125.png
-  artifactKey: Guid(03340ac3baf2e364d9b2d19ab7e9002f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-dreadknight-toy/textures/flatspec_125.png using Guid(03340ac3baf2e364d9b2d19ab7e9002f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f88f121e3f414a92c7ec601ebee4f9') in 0.002742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 15.112181 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-prowler-toy/textures/flatspec_125.png
-  artifactKey: Guid(794739ad54fc0504cae7110609695b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-prowler-toy/textures/flatspec_125.png using Guid(794739ad54fc0504cae7110609695b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a45a5c6cf7afd707e01589725a802a6') in 0.002961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.044683 seconds.
-  path: Assets/Prefabs/NPCs/doom-eternal-soldier-toy/textures/flatspec_125.png
-  artifactKey: Guid(fbf1feceefe558f4a8895c5bd7d09acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NPCs/doom-eternal-soldier-toy/textures/flatspec_125.png using Guid(fbf1feceefe558f4a8895c5bd7d09acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1401898e27b5c3ccd902e70a2c1a97fc') in 0.002770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.057962 seconds.
-  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Pain Elemental Reticle/demon_reticle_painelemental_shieldgauge_gradient1.png
-  artifactKey: Guid(e3b718c0ad3198b45849f1c8d387ede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Pain Elemental Reticle/demon_reticle_painelemental_shieldgauge_gradient1.png using Guid(e3b718c0ad3198b45849f1c8d387ede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bc4e0b5c2eb4e2b7973ed90df08b7a') in 0.001683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Pain Elemental Reticle/demon_reticle_painelemental_shieldgauge_gradient3.png
-  artifactKey: Guid(73f7279e1f1c3294081da1fd31077f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Pain Elemental Reticle/demon_reticle_painelemental_shieldgauge_gradient3.png using Guid(73f7279e1f1c3294081da1fd31077f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc06e7370ce1da9c79cc639fbd3cac7c') in 0.001506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001762 seconds.
-  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Pain Elemental Reticle/demon_reticle_painelemental_shieldtimer_base.png
-  artifactKey: Guid(fccadb0c9dcb87c46a439ef94a2e0a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Pain Elemental Reticle/demon_reticle_painelemental_shieldtimer_base.png using Guid(fccadb0c9dcb87c46a439ef94a2e0a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f8d14e240b444c84f9c15b01778664') in 0.001262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Revenant Reticle/demon_reticle_revenant_barrage.png
-  artifactKey: Guid(968ff6a2a2cccd14694fb071bf11642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Images/PC Computer - DOOM Eternal - Reticle Elements/Revenant Reticle/demon_reticle_revenant_barrage.png using Guid(968ff6a2a2cccd14694fb071bf11642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ee53ec976666a08596fdbc571872d1') in 0.002148 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020298 seconds.
-  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/Textures/CFX4_T_FireSoft RGB.png
-  artifactKey: Guid(4590452e6e05a624c98b4f931f719e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/Textures/CFX4_T_FireSoft RGB.png using Guid(4590452e6e05a624c98b4f931f719e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949b4b50969541bd04ce13fe4ccf0ed3') in 0.001422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/Textures/CFX4_T_PowHit.png
-  artifactKey: Guid(3736d3a30afdf1f4f8a5ba4e289720d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FX/JMO Assets/Cartoon FX (legacy)/Textures/CFX4_T_PowHit.png using Guid(3736d3a30afdf1f4f8a5ba4e289720d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c40023eaa296f231121722f08106951') in 0.001338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.006399 seconds.
-  path: Assets/Prefabs/FX/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Textures/BloodParticleFX_2_greyScale.png
-  artifactKey: Guid(e8562306528b4fe47828b2d1af380064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FX/BloodDecalsAndEffects/BloodGushFX/BloodGushFX/Textures/BloodParticleFX_2_greyScale.png using Guid(e8562306528b4fe47828b2d1af380064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198e78abdc1ae576cfa5938fffdc55f1') in 0.001674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\WORKSPACE\git\tfg_unity_Miguel_Roberto\Unity\test1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.061 seconds
+Refreshing native plugins compatible for Editor in 4.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.619 seconds
+Domain Reload Profiling: 2671ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (757ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (418ms)
+			TypeCache.Refresh (401ms)
+				TypeCache.ScanAssembly (384ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 3.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5869 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (356.7 KB). Loaded Objects now: 6542.
+Memory consumption went from 208.7 MB to 208.4 MB.
+Total: 4.374000 ms (FindLiveObjects: 0.899300 ms CreateObjectMapping: 0.231700 ms MarkObjects: 3.098000 ms  DeleteObjects: 0.143900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server
