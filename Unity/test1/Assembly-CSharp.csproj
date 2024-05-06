@@ -74,6 +74,7 @@
     <Compile Include="Assets\Prefabs\Game\LevelManagement\LevelTransition.cs" />
     <Compile Include="Assets\Shaders_Render\OToon- URP Toon Shading\Demo(Can be delete)\Scripts\ShowcaseDemoController.cs" />
     <Compile Include="Assets\Prefabs\Game\DemoObjects\Ladder.cs" />
+    <Compile Include="Assets\Prefabs\NPCs\Scripts\EnemyProyectile.cs" />
     <Compile Include="Assets\Shaders_Render\OToon- URP Toon Shading\Demo(Can be delete)\Scripts\PingPongMove.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\JetpackModule.cs" />
     <Compile Include="Assets\Prefabs\Player\Objetos\Weapons\Scripts\WeaponPickUp.cs" />
@@ -136,6 +137,7 @@
     <Compile Include="Assets\Prefabs\FX\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Prefabs\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\Input\AutoRunnerInputOverride.cs" />
+    <Compile Include="Assets\Prefabs\NPCs\Scripts\EnemyProyectileDamage.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\WallRunModule.cs" />
     <Compile Include="Assets\Prefabs\Game\LevelManagement\DeathTrigger.cs" />
     <Compile Include="Assets\Prefabs\Game\DemoObjects\Rotator.cs" />
@@ -171,7 +173,9 @@
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\GroundedControllerAbilityModule.cs" />
     <Compile Include="Assets\Shaders_Render\OToon- URP Toon Shading\Demo(Can be delete)\Scripts\Rotator.cs" />
     <Compile Include="Assets\Prefabs\NPCs\Scripts\AttackRangeDetection.cs" />
+    <Compile Include="Assets\Prefabs\NPCs\Scripts\BossAnim.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\DoubleJumpModule.cs" />
+    <Compile Include="Assets\Prefabs\NPCs\Scripts\EnemyRangedAttack.cs" />
     <Compile Include="Assets\Shaders_Render\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Prefabs\FX\Ultimate 10 Plus Shaders\Scripts\U10PS_SnowOverTime.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\AbilityModules\WallSlidingModule.cs" />

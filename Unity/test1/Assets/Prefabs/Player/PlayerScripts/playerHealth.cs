@@ -86,6 +86,6 @@ public class playerHealth : MonoBehaviour
         Instantiate(playerDeathFX2, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
         Instantiate(playerDeathFX,transform.position, Quaternion.Euler(new Vector3(0,0,0)));
         damageScreen.color = flashColor;
-        Destroy (gameObject);
+        gameObject.SetActive(false);
     }
 }

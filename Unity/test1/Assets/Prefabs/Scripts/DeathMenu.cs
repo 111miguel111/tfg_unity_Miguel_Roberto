@@ -21,7 +21,7 @@ public class DeathMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.IsDestroyed())
+        if (!player.activeInHierarchy)
         {
             StartCoroutine(waiter());
         }

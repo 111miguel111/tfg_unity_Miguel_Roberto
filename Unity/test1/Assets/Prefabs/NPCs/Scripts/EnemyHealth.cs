@@ -4,7 +4,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnemyHealth : MonoBehaviour{
+public class EnemyHealth : MonoBehaviour
+{
 
     public float enemyMaxHealth;
     public float currentHealth;
@@ -17,28 +18,52 @@ public class EnemyHealth : MonoBehaviour{
     public AudioClip[] damageSounds;
     AudioSource enemyAS;
 
+    public bool IsBoss;
+    Collider[] colliders;
+
+
     // Start is called before the first frame update
-    void Start(){
+    void Start()
+    {
+        if (IsBoss)
+        {
+            colliders = GetComponentsInChildren<Collider>();
+
+            // Iterar a través de los colliders encontrados
+            foreach (Collider collider in colliders)
+            {
+                // Hacer algo con cada collider, como imprimir su nombre
+                Debug.Log("Collider encontrado: " + collider.gameObject.name);
+            }
+        }
+
         currentHealth = enemyMaxHealth;
         enemyAS = GetComponentInParent<AudioSource>();
     }
 
     // Update is called once per frame
-    void Update(){
-        
+    void Update()
+    {
+
     }
 
-    public void addDamage(float damage){
+    public void addDamage(float damage)
+    {
         Debug.Log("Soy un zombi dolorido: ");
         damage = damage * damageModifier;
-        if(damage > 0f){
+        if (damage > 0f)
+        {
             currentHealth -= damage;
-            playSound(damageSounds);
+            if (damageSounds != null)
+            {
+                playSound(damageSounds);
+            }
             damageFX(damageParticles, transform.position, new Vector3(0, 0, 0));
-            if (currentHealth <= 0f){
+            if (currentHealth <= 0f)
+            {
                 makeDead();
             }
-            
+
         }
     }
 
@@ -53,14 +78,20 @@ public class EnemyHealth : MonoBehaviour{
         //enemyAS.clip = tempClip;
         //enemyAS.Play();
     }
-    void makeDead(){
+    void makeDead()
+    {
         //turn off movement
         //create ragdoll
         //playSound(deathSounds);
-        AudioClip tempClip = deathSounds[Random.Range(0, deathSounds.Length)];
-        AudioSource.PlayClipAtPoint(tempClip,transform.position);
+        if (deathSounds != null)
+        {
+            AudioClip tempClip = deathSounds[Random.Range(0, deathSounds.Length)];
+            AudioSource.PlayClipAtPoint(tempClip, transform.position);
+        }
+
         damageFX(deathParticles, transform.position, new Vector3(0, 0, 0));
-        if (drops){
+        if (drops)
+        {
             Instantiate(drop, transform.position, drop.transform.rotation);
         }
         //Destroy(gameObject.transform.root.gameObject);

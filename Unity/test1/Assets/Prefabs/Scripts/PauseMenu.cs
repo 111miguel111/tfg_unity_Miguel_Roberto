@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
             isPaused = false;
             pauseScreen.SetActive(false);
             Time.timeScale = 1.0f;
-            LevelFX.instanciate.playerAS.volume = .25f;
+            LevelFX.instanciate.playerAS.volume = .1f;
         }
         else
         {
