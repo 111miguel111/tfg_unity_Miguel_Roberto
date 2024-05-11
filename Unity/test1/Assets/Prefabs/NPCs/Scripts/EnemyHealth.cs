@@ -20,15 +20,23 @@ public class EnemyHealth : MonoBehaviour
 
     public bool IsBoss;
     Collider[] colliders;
+    public GameObject healthBar;
+    Slider healthBarSlider;
 
 
     // Start is called before the first frame update
     void Start()
     {
+
+        currentHealth = enemyMaxHealth;
+        enemyAS = GetComponentInParent<AudioSource>();
         if (IsBoss)
         {
             colliders = GetComponentsInChildren<Collider>();
-
+            healthBarSlider = healthBar.GetComponentInChildren<Slider>();
+            healthBarSlider.maxValue = enemyMaxHealth;
+            healthBarSlider.value = currentHealth;
+            healthBar.gameObject.SetActive(false);
             // Iterar a través de los colliders encontrados
             foreach (Collider collider in colliders)
             {
@@ -37,8 +45,7 @@ public class EnemyHealth : MonoBehaviour
             }
         }
 
-        currentHealth = enemyMaxHealth;
-        enemyAS = GetComponentInParent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -53,6 +60,7 @@ public class EnemyHealth : MonoBehaviour
         damage = damage * damageModifier;
         if (damage > 0f)
         {
+
             currentHealth -= damage;
             if (damageSounds != null)
             {
@@ -62,6 +70,10 @@ public class EnemyHealth : MonoBehaviour
             if (currentHealth <= 0f)
             {
                 makeDead();
+            }
+
+            if (IsBoss) {
+                healthBarSlider.value = currentHealth;
             }
 
         }
@@ -83,6 +95,10 @@ public class EnemyHealth : MonoBehaviour
         //turn off movement
         //create ragdoll
         //playSound(deathSounds);
+        if (IsBoss)
+        {
+            healthBar.gameObject.SetActive(false);
+        }
         if (deathSounds != null)
         {
             AudioClip tempClip = deathSounds[Random.Range(0, deathSounds.Length)];

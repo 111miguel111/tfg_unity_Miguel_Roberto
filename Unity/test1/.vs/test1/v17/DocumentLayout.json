@@ -3,11 +3,31 @@
   "WorkspaceRootPath": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\npcs\\scripts\\agentlinkmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\agentlinkmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\npcs\\scripts\\enemyanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\enemyanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\npcs\\scripts\\bossanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\bossanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\npcs\\scripts\\zombiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\zombiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\npcs\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\player\\objetos\\weapons\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\player\\objetos\\weapons\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\assets\\prefabs\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,6 +55,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AgentLinkMover.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\AgentLinkMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\AgentLinkMover.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\AgentLinkMover.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\AgentLinkMover.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:07:20.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyAnim.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T12:07:15.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ZombieController.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\ZombieController.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\ZombieController.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\ZombieController.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\ZombieController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:26:35.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwBIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T10:07:16.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BossAnim.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\BossAnim.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\BossAnim.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\BossAnim.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\BossAnim.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA5wDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T08:58:49.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "fire.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\fire.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\fire.cs",
@@ -47,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "LevelFX.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Scripts\\LevelFX.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Scripts\\LevelFX.cs",
@@ -59,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Scripts\\PauseMenu.cs",
@@ -67,12 +152,11 @@
               "RelativeToolTip": "Assets\\Prefabs\\Scripts\\PauseMenu.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAIBJwCgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T08:22:31.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T08:22:31.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "playerHealth.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\PlayerScripts\\playerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\PlayerScripts\\playerHealth.cs",
@@ -84,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ControlledCapsuleCollider.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\Movement_Asset\\Code\\Physics\\CapsuleController\\ControlledCapsuleCollider.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\Movement_Asset\\Code\\Physics\\CapsuleController\\ControlledCapsuleCollider.cs",
