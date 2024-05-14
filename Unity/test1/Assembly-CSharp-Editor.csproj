@@ -76,8 +76,8 @@
     <Compile Include="Assets\Shaders_Render\OToon- URP Toon Shading\Demo(Can be delete)\Plugins\SprintBone\Editor\SpringBoneEditor.cs" />
     <Compile Include="Assets\Cartoon Cave Kit\Editor\ImageEffects\CreaseShadingEditor.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\Editor\CharacterFixEditor.cs" />
-    <Compile Include="Assets\Cartoon Cave Kit\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
     <Compile Include="Assets\Cartoon Cave Kit\Editor\ImageEffects\AntialiasingEditor.cs" />
+    <Compile Include="Assets\Cartoon Cave Kit\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\Editor\AbilitySlotDrawer.cs" />
     <Compile Include="Assets\Prefabs\Player\Movement_Asset\Code\Editor\CharacterEditorWindow.cs" />
     <Compile Include="Assets\Cartoon Cave Kit\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />

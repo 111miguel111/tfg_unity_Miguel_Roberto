@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\npcs\\scripts\\enemyrangedattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\enemyrangedattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\npcs\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\assets\\prefabs\\npcs\\scripts\\bossanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\bossanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\npcs\\scripts\\attackrangedetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\attackrangedetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\objects\\camera\\scripts\\basiccameratracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\objects\\camera\\scripts\\basiccameratracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +27,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.8\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|e:\\workspace\\git\\tfg_unity_miguel_roberto\\unity\\test1\\assets\\prefabs\\npcs\\scripts\\agentlinkmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\assets\\prefabs\\npcs\\scripts\\agentlinkmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\agentlinkmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\assets\\prefabs\\npcs\\scripts\\enemyanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\enemyanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\assets\\prefabs\\npcs\\scripts\\bossanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|solutionrelative:assets\\prefabs\\npcs\\scripts\\bossanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB112415-DF37-FFF0-193C-C41C1F943A0D}|Assembly-CSharp.csproj|E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\assets\\prefabs\\npcs\\scripts\\zombiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,6 +75,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyRangedAttack.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyRangedAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyRangedAttack.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyRangedAttack.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyRangedAttack.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T21:33:18.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttackRangeDetection.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\AttackRangeDetection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T21:10:44.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
+              "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCsAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T21:10:39.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BasicCameraTracker.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Objects\\Camera\\Scripts\\BasicCameraTracker.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Objects\\Camera\\Scripts\\BasicCameraTracker.cs",
@@ -75,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Lit.shader",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.8\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.8\\Shaders\\Lit.shader",
@@ -83,12 +134,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.8\\Shaders\\Lit.shader",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-05-11T17:58:43.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T17:58:43.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "AgentLinkMover.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\AgentLinkMover.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\AgentLinkMover.cs",
@@ -96,12 +146,11 @@
               "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\AgentLinkMover.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T12:07:20.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T12:07:20.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "EnemyAnim.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyAnim.cs",
@@ -113,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ZombieController.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\ZombieController.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\ZombieController.cs",
@@ -125,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\EnemyHealth.cs",
@@ -137,19 +186,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "BossAnim.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\BossAnim.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\NPCs\\Scripts\\BossAnim.cs",
               "ToolTip": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\NPCs\\Scripts\\BossAnim.cs",
               "RelativeToolTip": "Assets\\Prefabs\\NPCs\\Scripts\\BossAnim.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAA5wDUAAAAJAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwFgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T08:58:49.051Z"
+              "WhenOpened": "2024-05-11T08:58:49.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "fire.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\fire.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\Objetos\\Weapons\\Scripts\\fire.cs",
@@ -161,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "LevelFX.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Scripts\\LevelFX.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Scripts\\LevelFX.cs",
@@ -173,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Scripts\\PauseMenu.cs",
@@ -185,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "playerHealth.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\PlayerScripts\\playerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\PlayerScripts\\playerHealth.cs",
@@ -197,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ControlledCapsuleCollider.cs",
               "DocumentMoniker": "E:\\WORKSPACE\\git\\tfg_unity_Miguel_Roberto\\Unity\\test1\\Assets\\Prefabs\\Player\\Movement_Asset\\Code\\Physics\\CapsuleController\\ControlledCapsuleCollider.cs",
               "RelativeDocumentMoniker": "Assets\\Prefabs\\Player\\Movement_Asset\\Code\\Physics\\CapsuleController\\ControlledCapsuleCollider.cs",
